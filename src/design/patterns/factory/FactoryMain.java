@@ -1,4 +1,4 @@
-package org.factory.design.pattern;
+package design.patterns.factory;
 
 /**
  * 1.) factory design pattern does not expose the actual class

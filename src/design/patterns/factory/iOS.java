@@ -1,4 +1,4 @@
-package org.factory.design.pattern;
+package design.patterns.factory;
 
 public class iOS implements OS {
 
