@@ -6,7 +6,7 @@ public class Bicycle {
     //so we have go method
     //we want to handle bicycle as Car and Bus
     //so we create Bicycle adaptor
-    public void go(){
+    public void go() {
         System.out.println("Going by Bicycle...");
     }
 }

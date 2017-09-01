@@ -2,13 +2,13 @@ package design.patterns.factory;
 
 public class FactoryMethod {
 
-    public  OS getInstance(String str){
+    public OS getInstance(String str) {
 
-        if(str.equals("iOS")){
+        if (str.equals("iOS")) {
             return new iOS();
-        }else if(str.equals("Linux")){
+        } else if (str.equals("Linux")) {
             return new Linux();
-        }else{
+        } else {
             return new Windows();
         }
 

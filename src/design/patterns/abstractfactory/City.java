@@ -1,9 +1,9 @@
 package design.patterns.abstractfactory;
 
-public class City implements  Car {
+public class City implements Car {
 
     @Override
-    public void drive(){
+    public void drive() {
         System.out.println("Driving Honda City...");
     }
 }

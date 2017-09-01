@@ -4,7 +4,6 @@ package design.patterns.factory;
  * 1.) factory design pattern does not expose the actual class
  * 2.)If a new class is added(means new functionality), change required only @FactoryMethod class
  * No change at client classes
- *
  */
 public class FactoryMain {
 

@@ -7,22 +7,22 @@ public class SortingManager {
     private Algorithm heapSort;
     private Algorithm mergeSort;
 
-    public SortingManager(){
+    public SortingManager() {
         this.bubbleSort = new BubbleSort();
         this.heapSort = new HeapSort();
         this.mergeSort = new MergeSort();
     }
 
 
-    public void mergeSort(){
+    public void mergeSort() {
         this.mergeSort.sort();
     }
 
-    public void heapSort(){
+    public void heapSort() {
         this.heapSort.sort();
     }
 
-    public void bubbleSort(){
+    public void bubbleSort() {
         this.bubbleSort.sort();
     }
 

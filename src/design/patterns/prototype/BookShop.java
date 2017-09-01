@@ -3,7 +3,7 @@ package design.patterns.prototype;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookShop implements Cloneable{
+public class BookShop implements Cloneable {
 
     private String name;
     List<Book> bookList = new ArrayList<Book>();
@@ -33,11 +33,11 @@ public class BookShop implements Cloneable{
     }
 
 
-    public void loadData(){
-        for(int i=0; i<10;i++){
+    public void loadData() {
+        for (int i = 0; i < 10; i++) {
             Book book = new Book();
             book.setBid(i);
-            book.setBname("Book "+i);
+            book.setBname("Book " + i);
             getBookList().add(book);
         }
     }
@@ -51,10 +51,10 @@ public class BookShop implements Cloneable{
     @Override
     protected BookShop clone() throws CloneNotSupportedException {
         BookShop bookShop = new BookShop();
-        for( Book book :this.getBookList()){
+        for (Book book : this.getBookList()) {
             bookShop.getBookList().add(book);
         }
-        return  bookShop;
+        return bookShop;
     }
 
 }

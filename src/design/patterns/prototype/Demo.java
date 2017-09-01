@@ -25,13 +25,5 @@ public class Demo {
         System.out.println(bookShop2);  //the index book removed only from bookshop 2 ==> deep cloning
 
 
-
-
-
-
-
-
-
-
     }
 }

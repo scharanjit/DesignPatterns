@@ -1,0 +1,16 @@
+=> Decouples the sender of a request from its receiver b giving more than one object
+a chance to handle the request.
+
+==> Chain the receiving objects and pass the request along the chain until an object
+handles it
+
+When to use it?
+=> Use when a request can be handled with the multiple handlers in the chain
+
+
+Participants
+
+Abstract handler (Interface)
+Concrete handler
+Client
+

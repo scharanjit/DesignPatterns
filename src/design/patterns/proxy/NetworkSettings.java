@@ -2,11 +2,11 @@ package design.patterns.proxy;
 
 public class NetworkSettings {
 
-    public ISP getInternet(){
+    public ISP getInternet() {
         return new InternetProxy();
     }
 
-    public ISP getISP(){
+    public ISP getISP() {
         return new Vodafone();
     }
 }

@@ -1,6 +1,6 @@
 package design.patterns.adaptor;
 
-public class Car implements  Vehicle {
+public class Car implements Vehicle {
 
     @Override
     public void accelerate() {

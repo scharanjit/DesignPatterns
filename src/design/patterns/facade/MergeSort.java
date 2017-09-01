@@ -1,9 +1,9 @@
 package design.patterns.facade;
 
-public class MergeSort implements Algorithm{
+public class MergeSort implements Algorithm {
 
     @Override
-    public void sort(){
+    public void sort() {
         System.out.println("Merge Sort....");
     }
 }

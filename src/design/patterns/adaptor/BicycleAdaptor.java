@@ -1,10 +1,10 @@
 package design.patterns.adaptor;
 
-public class BicycleAdaptor implements Vehicle{
+public class BicycleAdaptor implements Vehicle {
 
     private Bicycle bicycle;
 
-    public BicycleAdaptor(Bicycle bicycle){
+    public BicycleAdaptor(Bicycle bicycle) {
         this.bicycle = bicycle;
     }
 

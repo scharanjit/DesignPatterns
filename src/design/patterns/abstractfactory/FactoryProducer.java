@@ -2,13 +2,13 @@ package design.patterns.abstractfactory;
 
 public class FactoryProducer {
 
-    public static CarFactory getCarFactory(String factoryType){
+    public static CarFactory getCarFactory(String factoryType) {
 
-        if("hyundai".equalsIgnoreCase(factoryType)){
+        if ("hyundai".equalsIgnoreCase(factoryType)) {
             return new HyundaiCarFactory();
         }
 
-        if("honda".equalsIgnoreCase(factoryType)){
+        if ("honda".equalsIgnoreCase(factoryType)) {
             return new HondaCarFactory();
         }
 
