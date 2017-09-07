@@ -1,0 +1,103 @@
+Where the Iterator interface implemented
+
+When you look at the source code of JDK,
+ you will find that Iterator is an interface and has only there methods viz.
+ hasNext, next and remove declared in it. So where is the implementation of Iterator in Java.
+
+Well if we go and look the AbstractList class in JDK,
+there you will find the implementation of Iterator as an inner class named Itr.
+Here is the implementation of Iterator interface reproduced from AbstractList class:
+
+private class Itr implements Iterator<E> {
+    /**
+     * Index of element to be returned by subsequent call to next.
+     */
+    int cursor = 0;
+
+    /**
+     * Index of element returned by most recent call to next or
+     * previous.  Reset to -1 if this element is deleted by a call
+     * to remove.
+     */
+    int lastRet = -1;
+
+    /**
+     * The modCount value that the iterator believes that the backing
+     * List should have.  If this expectation is violated, the iterator
+     * has detected concurrent modification.
+     */
+    int expectedModCount = modCount;
+
+    public boolean hasNext() {
+        return cursor != size();
+    }
+
+    public E next() {
+        checkForComodification();
+        try {
+            int i = cursor;
+            E next = get(i);
+            lastRet = i;
+            cursor = i + 1;
+            return next;
+        } catch (IndexOutOfBoundsException e) {
+            checkForComodification();
+            throw new NoSuchElementException();
+        }
+    }
+
+    public void remove() {
+        if (lastRet < 0)
+            throw new IllegalStateException();
+        checkForComodification();
+
+        try {
+            AbstractList.this.remove(lastRet);
+            if (lastRet < cursor)
+                cursor--;
+            lastRet = -1;
+            expectedModCount = modCount;
+        } catch (IndexOutOfBoundsException e) {
+            throw new ConcurrentModificationException();
+        }
+    }
+
+    final void checkForComodification() {
+        if (modCount != expectedModCount)
+            throw new ConcurrentModificationException();
+    }
+}
+
+
+ConcurrentModificationException
+
+The Iterator interface should be used judiciously. If you look at the javadoc
+of Iterator interface, you will find that Iterator provides fail fast behavior.
+This means that if the elements are being added/removed without using Iterator
+while the iterator is being used with a collection object, the iterator will throw
+ConcurrentModificationException.
+
+While removing objects from list, when it may produce ConcurrentModificationException?
+
+In Java, when you create an iterator, it starts to count the modifications that were
+applied on the collection. If the iterator detects that some modifications were made
+ without using its method (or using another iterator on the same collection),
+ it cannot guarantee anymore that it will not pass twice on the same element or skip one,
+ so it throws this exception.
+
+ArrayList methods always increase/decrease a counter ‘modCount‘ declared as:
+
+protected transient int modCount = 0;
+When you create an Iterator/ListIterator on arraylist, this modCount is used to
+initialize expectedModCount for that Iterator instance.
+
+int expectedModCount = modCount;
+Any operation done on ArrayList directly (without using iterator instance) will
+increase the modCount. Iterator’s all methods perform a check to validate the equality
+of modCount == expectedModCount – before performing the operation. If they do not match,
+ it simply throws the exception.
+
+final void checkForComodification() {
+    if (modCount != expectedModCount)
+        throw new ConcurrentModificationException();
+}
