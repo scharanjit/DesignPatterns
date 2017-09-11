@@ -9,6 +9,17 @@ Set:- Interface
 
 
 implementation
-1.)HashSet   -->Class
+1.)HashSet   -->Class   ==> No Duplicates,No order, NO Synchronization
+if we need synchronization
+  Set s = Collections.synchronizedSet(new HashSet(...));
+
+  otherwise Iterator throws a ConcurrentModificationException
+
+                       add      contains next     notes
+  HashSet               O(1)     O(1)     O(h/n)   h is the table capacity
+  LinkedHashSet         O(1)     O(1)     O(1) 
+  TreeSet               O(log n) O(log n) O(log n)
+
+
 2.)LinkedHashSet -->Class
 3.)Tree Set  -->Class
