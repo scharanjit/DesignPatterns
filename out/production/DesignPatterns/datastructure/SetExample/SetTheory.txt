@@ -1,0 +1,14 @@
+Characteristics of a Set collection:
+The following characteristics differentiate a Set collection from others
+ in the Java Collections framework:
+Duplicate elements are not allowed.
+Elements are not stored in order. That means you cannot expect elements
+ sorted in any order when iterating over elements of a Set.
+
+Set:- Interface
+
+
+implementation
+1.)HashSet   -->Class
+2.)LinkedHashSet -->Class
+3.)Tree Set  -->Class
