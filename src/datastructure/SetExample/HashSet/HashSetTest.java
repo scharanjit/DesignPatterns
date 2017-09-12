@@ -8,6 +8,7 @@ public class HashSetTest {
     public static void main(String[] args) {
         Set s = new HashSet();
 
+        s.add(null);
         s.add("hi");
         s.add("hi-1");
         s.add("hi-1");

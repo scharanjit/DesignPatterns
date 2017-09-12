@@ -21,5 +21,7 @@ if we need synchronization
   TreeSet               O(log n) O(log n) O(log n)
 
 
-2.)LinkedHashSet -->Class
-3.)Tree Set  -->Class
+2.)LinkedHashSet -->Class  ==> no duplicates, maintain insertion order
+3.)Tree Set  -->Class  ==> no duplicates, automatic sort therefore class cast exception
+means string tree set me if we added number, it will throw exception
+==> null not allowed
