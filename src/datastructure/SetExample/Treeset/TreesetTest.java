@@ -1,5 +1,7 @@
 package datastructure.SetExample.Treeset;
 
+import java.util.Collections;
+import java.util.Set;
 import java.util.TreeSet;
 
 public class TreesetTest {
@@ -19,6 +21,19 @@ public class TreesetTest {
         // Sorting Order(Ascending)
         System.out.println(ts1);
 
-//        ts1.add(2);
+//        ts1.add(2); //class cast exception
+
+        TreeSet ts = new TreeSet();
+        Set syncSet = Collections.synchronizedSet(ts);
+        syncSet.add("A");
+        syncSet.add("B");
+        syncSet.add("C");
+        syncSet.add("D");
+        syncSet.add("E");
+        syncSet.add("A");
+        syncSet.add("A");
+
+        System.out.println(syncSet);
+
     }
 }

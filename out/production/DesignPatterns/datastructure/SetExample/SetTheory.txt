@@ -23,5 +23,5 @@ if we need synchronization
 
 2.)LinkedHashSet -->Class  ==> no duplicates, maintain insertion order
 3.)Tree Set  -->Class  ==> no duplicates, automatic sort therefore class cast exception
-
 means string tree set me if we added number, it will throw exception
+==> null not allowed
