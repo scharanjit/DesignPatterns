@@ -12,8 +12,22 @@ implementation
 1.)HashSet   -->Class   ==> No Duplicates,No order, NO Synchronization
 if we need synchronization
   Set s = Collections.synchronizedSet(new HashSet(...));
-
   otherwise Iterator throws a ConcurrentModificationException
+
+   Default initial capacity is 16 and default load factor is 0.75.
+   Number of buckets will be automatically increased if the current size gets full.
+
+                 Number of stored elements in the table
+      load factor = -----------------------------------------
+                           Size of the hash table
+
+  How HashSet internally work?
+  All the classes of Set interface internally backed up by Map. HashSet uses HashMap for storing its object internally. You must be wondering that to enter a value in HashMap we need a key-value pair, but in HashSet we are passing only one value.
+
+  Then how is it storing in HashMap?
+  Actually the value we insert in HashSet acts as key to the map Object and for its value java uses a constant variable. So in key-value pair all the keys will have same value.
+
+
 
                        add      contains next     notes
   HashSet               O(1)     O(1)     O(h/n)   h is the table capacity
