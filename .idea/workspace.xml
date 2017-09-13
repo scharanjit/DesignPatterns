@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6624ba4d-8b1c-4f27-9c77-1cf531c42a63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/mapExample/HashMapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/mapExample/LinkedHashMapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/mapExample/Maptheory.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/mapExample/RedBlackTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/mapExample/TreeMapTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/mapExample/AdvantageBSTOverHashTable" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/datastructure/mapExample/RedBlackTree.java" afterPath="$PROJECT_DIR$/src/datastructure/treeExample/RedBlackTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/datastructure/SetExample/SetTheory.txt" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/datastructure/SetExample/SetTheory.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/mapExample/LinkedHashMapTest.java" afterPath="$PROJECT_DIR$/src/datastructure/mapExample/LinkedHashMapTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/mapExample/Maptheory.md" afterPath="$PROJECT_DIR$/src/datastructure/mapExample/Maptheory.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +35,7 @@
       <file leaf-file-name="SetTheory.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datastructure/SetExample/SetTheory.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="252">
               <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
               <folding />
             </state>
@@ -55,8 +53,8 @@
         <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/Maptheory.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="398">
-                <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+              <first_editor relative-caret-position="289">
+                <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -64,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedBlackTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/RedBlackTree.java">
+      <file leaf-file-name="AdvantageBSTOverHashTable" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/AdvantageBSTOverHashTable">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedBlackTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/treeExample/RedBlackTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -84,12 +92,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedHashMapTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LinkedHashMapTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/LinkedHashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="e#224#240#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +107,7 @@
       <file leaf-file-name="HashMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/HashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="270">
               <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,23 +119,10 @@
       <file leaf-file-name="TreesetTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datastructure/SetExample/Treeset/TreesetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="270">
               <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BicycleAdaptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/patterns/adaptor/BicycleAdaptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design/patterns/factory/FactoryMethod.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/factory/iOS.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/factory/Linux.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/factory/OS.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/factory/Windows.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/factory/NormalWay.java" />
@@ -219,8 +213,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/datastructure/SetExample/SetTheory.txt" />
         <option value="$PROJECT_DIR$/src/datastructure/mapExample/HashMapTest.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/mapExample/Maptheory.md" />
         <option value="$PROJECT_DIR$/src/datastructure/mapExample/RedBlackTree.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/mapExample/AdvantageBSTOverHashTable" />
+        <option value="$PROJECT_DIR$/src/datastructure/treeExample/RedBlackTree.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/mapExample/Maptheory.md" />
+        <option value="$PROJECT_DIR$/src/datastructure/mapExample/LinkedHashMapTest.java" />
       </list>
     </option>
   </component>
@@ -290,6 +287,13 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="treeExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,10 +313,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,11 +357,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashMapTest">
+  <component name="RunManager" selected="Application.LinkedHashMapTest">
     <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructure.mapExample.*" />
+          <option name="PATTERN" value="datastructure.treeExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,14 +396,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="LinkedHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructure.SetExample.LinkedHashSet.*" />
+          <option name="PATTERN" value="datastructure.mapExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.SetExample.LinkedHashSet.LinkedHashSetTest" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.mapExample.LinkedHashMapTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -411,14 +415,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructure.Iterator.*" />
+          <option name="PATTERN" value="datastructure.SetExample.LinkedHashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.Iterator.Sample" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.SetExample.LinkedHashSet.LinkedHashSetTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -465,19 +469,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Sample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HashSetTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LinkedHashSetTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TreesetTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HashMapTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HashSetTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LinkedHashSetTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TreesetTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HashMapTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LinkedHashMapTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HashMapTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TreesetTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HashSetTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LinkedHashSetTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Sample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LinkedHashMapTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HashMapTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TreesetTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HashSetTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LinkedHashSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -499,14 +503,15 @@
       <workItem from="1505122636684" duration="5466000" />
       <workItem from="1505199736236" duration="2786000" />
       <workItem from="1505230636646" duration="4838000" />
+      <workItem from="1505276953246" duration="2801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43392000" />
+    <option name="totallyTimeSpent" value="46193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1315" height="780" extended-state="6" />
+    <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -522,7 +527,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28018942" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.284925" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -620,13 +625,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/prototype/BookShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/prototype/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -879,9 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,9 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,8 +900,8 @@
         <state relative-caret-position="126">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="false" />
+            <element signature="e#168#169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,13 +932,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/SetExample/Treeset/TreesetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="270">
           <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -956,7 +947,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/SetExample/SetTheory.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="252">
           <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding />
         </state>
@@ -967,10 +958,20 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/LinkedHashMapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/treeExample/RedBlackTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -983,32 +984,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/HashMapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/AdvantageBSTOverHashTable">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/Maptheory.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="398">
-            <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <first_editor relative-caret-position="289">
+            <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/RedBlackTree.java">
+    <entry file="file://$PROJECT_DIR$/src/datastructure/mapExample/LinkedHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#224#240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package datastructure.mapExample;
+package datastructure.treeExample;
 
 public class RedBlackTree {
 

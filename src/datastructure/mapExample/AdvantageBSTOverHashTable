@@ -1,0 +1,17 @@
+Hash Table supports following operation in O(1) times
+1. Search
+2. Insert
+3. Delete
+
+For a Self balancing BST , the time complexity for these operations is
+O(logn)
+
+
+Advantage of BST over HashTable:-
+
+1.) Can get all keys in  sorted order by just doing Inorder Traversal
+
+2.) Doing order statistics , finding closet  lower and  greater elements ,
+doing range queries are easy to do with BST's
+
+3.) BST are easy to implement than traversing
