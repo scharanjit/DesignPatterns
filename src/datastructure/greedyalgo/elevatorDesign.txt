@@ -1,0 +1,19 @@
+Elevator Engine
+1.) elevator engine extends thread
+2.) boolean variable stopFlag
+3.) Start engine==> start thread
+4.) instance of elevator cabin
+5.) chking cabin floor list
+
+Elevator Cabin
+1.) tree set ==> callingfloorlist
+2.) ENUM class UP and down
+3.) Go next function (find next floor)
+at start==ground
+so direction up
+2 conditions  =>
+if floor> nextfloor
+up
+if floor<nextfloor
+iterate callingFloorList.descendingSet()
+
