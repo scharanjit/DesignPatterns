@@ -16,6 +16,7 @@ public class ElevatorEngineDriver {
         engine.pressButton(9);
         engine.pressButton(1);
         sleep();
+        engine.pressButton(5);
         engine.stopEngine();
         try {
             engine.join();
