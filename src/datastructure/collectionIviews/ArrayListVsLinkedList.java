@@ -4,14 +4,13 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class ArrayListVsLinkedList {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         ArrayList<String> arrlistobj = new ArrayList<String>();
         arrlistobj.add("0. Practice.GeeksforGeeks.org");
         arrlistobj.add("1. Quiz.GeeksforGeeks.org");
         arrlistobj.add("2. Code.GeeksforGeeks.org");
         arrlistobj.remove(1);  // Remove value at index 2
-        System.out.println("ArrayList object output :" +  arrlistobj);
+        System.out.println("ArrayList object output :" + arrlistobj);
 
         // Checking if an element is present.
         if (arrlistobj.contains("2. Code.GeeksforGeeks.org"))

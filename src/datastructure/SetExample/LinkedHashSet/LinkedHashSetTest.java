@@ -2,8 +2,6 @@ package datastructure.SetExample.LinkedHashSet;
 
 import java.util.LinkedHashSet;
 
-import static java.sql.JDBCType.NULL;
-
 public class LinkedHashSetTest {
 
     public static void main(String[] args) {

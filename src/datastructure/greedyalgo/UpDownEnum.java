@@ -1,6 +1,6 @@
 package datastructure.greedyalgo;
 
 enum UpDownEnum {
-    UP,DOWN
+    UP, DOWN
 
 }

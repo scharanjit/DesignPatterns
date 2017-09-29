@@ -1,28 +1,28 @@
 package datastructure.greedyalgo;
 
-public class ElevatorEngine extends Thread{
+public class ElevatorEngine extends Thread {
 
     private ElevatorCabin cabin = new ElevatorCabin();
     private volatile boolean stopFlag = false;
 
-    public void startEngine(){
+    public void startEngine() {
         stopFlag = false;
         this.start();
     }
 
-    public void stopEngine(){
+    public void stopEngine() {
         stopFlag = true;
     }
 
-    public void run(){
-        while(true){
-            if(stopFlag){
-                if(cabin.callingFloorList.isEmpty()){
+    public void run() {
+        while (true) {
+            if (stopFlag) {
+                if (cabin.callingFloorList.isEmpty()) {
                     break;
                 }
             }
             Integer next = cabin.gotoNext();
-            System.out.println("Next floor is "+next);
+            System.out.println("Next floor is " + next);
 
             try {
                 Thread.sleep(1000);
@@ -32,8 +32,8 @@ public class ElevatorEngine extends Thread{
         }
     }
 
-    public void pressButton(int floor){
-        System.out.println("Pressed "+floor);
+    public void pressButton(int floor) {
+        System.out.println("Pressed " + floor);
         cabin.add(floor);
     }
 }

@@ -7,7 +7,7 @@ import java.util.TreeSet;
 public class TreesetTest {
 
     public static void main(String[] args) {
-        TreeSet ts1= new TreeSet();
+        TreeSet ts1 = new TreeSet();
         ts1.add("Z");
         ts1.add("B");
         ts1.add("C");

@@ -6,27 +6,27 @@ public class ElevatorCabin {
 
     public int currentFloor = 0;
     public UpDownEnum direction = UpDownEnum.UP;
-    public TreeSet<Integer> callingFloorList  = new TreeSet<Integer>();
+    public TreeSet<Integer> callingFloorList = new TreeSet<Integer>();
 
-    public void add(Integer floor){
+    public void add(Integer floor) {
         callingFloorList.add(floor);
     }
 
-    public Integer gotoNext(){
+    public Integer gotoNext() {
         Integer nextFloor = currentFloor;
-        switch(direction){
+        switch (direction) {
             case UP:
                 for (Integer floor : callingFloorList) {
-                    if(floor > nextFloor){
+                    if (floor > nextFloor) {
                         nextFloor = floor;
                         direction = UpDownEnum.UP;
                         break;
                     }
                 }
 
-                if(nextFloor == currentFloor){
+                if (nextFloor == currentFloor) {
                     for (Integer floor : callingFloorList.descendingSet()) {
-                        if(floor < nextFloor){
+                        if (floor < nextFloor) {
                             nextFloor = floor;
                             direction = UpDownEnum.DOWN;
                             break;
@@ -36,16 +36,16 @@ public class ElevatorCabin {
                 break;
             case DOWN:
                 for (Integer floor : callingFloorList.descendingSet()) {
-                    if(floor < nextFloor){
+                    if (floor < nextFloor) {
                         nextFloor = floor;
                         direction = UpDownEnum.DOWN;
                         break;
                     }
                 }
 
-                if(nextFloor == currentFloor){
+                if (nextFloor == currentFloor) {
                     for (Integer floor : callingFloorList) {
-                        if(floor > nextFloor){
+                        if (floor > nextFloor) {
                             nextFloor = floor;
                             direction = UpDownEnum.UP;
                             break;

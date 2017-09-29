@@ -19,59 +19,56 @@ Even though the object is specified as key in hashmap, it does not have
   i.e Garbage Collector dominates over WeakHashMap.
 
          */
-public class HashMapVsWeakHashmap{
+public class HashMapVsWeakHashmap {
 
-            public static void main(String[] args) throws InterruptedException {
-                HashMap m = new HashMap();
-                Demo d = new Demo();
+    public static void main(String[] args) throws InterruptedException {
+        HashMap m = new HashMap();
+        Demo d = new Demo();
 
-                // puts an entry into HashMap
-                m.put(d," Hi ");
+        // puts an entry into HashMap
+        m.put(d, " Hi ");
 
-                System.out.println(m);
-                d = null;
+        System.out.println(m);
+        d = null;
 
-                // garbage collector is called
-                System.gc();
+        // garbage collector is called
+        System.gc();
 
-                //thread sleeps for 4 sec
-                Thread.sleep(4000);
+        //thread sleeps for 4 sec
+        Thread.sleep(4000);
 
-                System.out.println(m);
-
-
-                WeakHashMap m1 = new WeakHashMap();
-                Demo d1 = new Demo();
-
-                // puts an entry into WeakHashMap
-                m1.put(d1," Hi ");
-                System.out.println(m1);
-
-                d1 = null;
-
-                // garbage collector is called
-                System.gc();
-
-                // thread sleeps for 4 sec
-                Thread.sleep(4000);
-
-                System.out.println(m1);
+        System.out.println(m);
 
 
-            }
+        WeakHashMap m1 = new WeakHashMap();
+        Demo d1 = new Demo();
+
+        // puts an entry into WeakHashMap
+        m1.put(d1, " Hi ");
+        System.out.println(m1);
+
+        d1 = null;
+
+        // garbage collector is called
+        System.gc();
+
+        // thread sleeps for 4 sec
+        Thread.sleep(4000);
+
+        System.out.println(m1);
+
+
+    }
 
 }
 
-class Demo
-{
-    public String toString()
-    {
+class Demo {
+    public String toString() {
         return "demo";
     }
 
     // finalize method
-    public void finalize()
-    {
+    public void finalize() {
         System.out.println("Finalize method is called");
     }
 }

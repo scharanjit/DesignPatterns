@@ -8,26 +8,22 @@ package datastructure.treeExample;
  Time Complexity: O(n^2)
  https://www.youtube.com/watch?v=zUgxaZApKWA
  */
-class NodeB
-{
+class NodeB {
     int data;
     NodeB left, right;
 
-    public NodeB(int item)
-    {
+    public NodeB(int item) {
         data = item;
         left = right = null;
     }
 }
 
 /* Class to print the Diameter */
-class DiameterBinaryTree
-{
+class DiameterBinaryTree {
     NodeB root;
 
     /* Method to calculate the diameter and return it to main */
-    int diameter(NodeB root)
-    {
+    int diameter(NodeB root) {
         /* base case if tree is empty */
         if (root == null)
             return 0;
@@ -50,16 +46,14 @@ class DiameterBinaryTree
     }
 
     /* A wrapper over diameter(NodeB root) */
-    int diameter()
-    {
+    int diameter() {
         return diameter(root);
     }
 
     /*The function Compute the "height" of a tree. Height is the
       number f NodeBs along the longest path from the root NodeB
       down to the farthest leaf NodeB.*/
-    static int height(NodeB NodeB)
-    {
+    static int height(NodeB NodeB) {
         /* base case tree is empty */
         if (NodeB == null)
             return 0;
@@ -69,8 +63,7 @@ class DiameterBinaryTree
         return (1 + Math.max(height(NodeB.left), height(NodeB.right)));
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         /* creating a binary tree and entering the NodeBs */
         DiameterBinaryTree tree = new DiameterBinaryTree();
         tree.root = new NodeB(1);

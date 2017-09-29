@@ -29,7 +29,7 @@ public class MaximumProductSubarrayTrio {
         int max1 = Integer.MIN_VALUE,
                 max2 = Integer.MIN_VALUE,
                 max3 = Integer.MIN_VALUE;
-        for (int n: nums) {
+        for (int n : nums) {
             if (n <= min1) {
                 min2 = min1;
                 min1 = n;
@@ -54,9 +54,9 @@ public class MaximumProductSubarrayTrio {
     public static void main(String[] args) {
         int arr[] = {1, -2, -3, 0, 7, -8, -2};
         System.out.println(maximumProduct(arr));
-        int arr1[] = {1, -2, -3, 0, 7, -8, -2,100000};
+        int arr1[] = {1, -2, -3, 0, 7, -8, -2, 100000};
         System.out.println(maximumProduct(arr1));
-        int arr2[] = {1, -2, -3, 0, 7, -8, -2,-50,-100000};
+        int arr2[] = {1, -2, -3, 0, 7, -8, -2, -50, -100000};
         System.out.println(maximumProduct(arr2));
     }
 }

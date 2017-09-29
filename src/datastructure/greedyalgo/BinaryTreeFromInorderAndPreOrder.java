@@ -66,8 +66,8 @@ class BinaryTreeFromInorderAndPreOrder {
         return i;
     }
 
-    void printInorder(Node node){
-        if(node==null){
+    void printInorder(Node node) {
+        if (node == null) {
             return;
         }
         printInorder(node.left);

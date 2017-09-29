@@ -2,25 +2,21 @@ package datastructure.greedyalgo;
 
 public class StringStringBufferStringBuilder {
 
-    public static void concat1(String s1)
-    {
+    public static void concat1(String s1) {
         s1 = s1 + "forgeeks";
     }
 
     // Concatenates to StringBuilder
-    public static void concat2(StringBuilder s2)
-    {
+    public static void concat2(StringBuilder s2) {
         s2.append("forgeeks");
     }
 
     // Concatenates to StringBuffer
-    public static void concat3(StringBuffer s3)
-    {
+    public static void concat3(StringBuffer s3) {
         s3.append("forgeeks");
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         String s1 = "Geeks";
         concat1(s1);  // s1 is not changed
         System.out.println("String: " + s1);

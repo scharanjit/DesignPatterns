@@ -2,37 +2,31 @@ package datastructure.treeExample;
 
 /* Class containing left and right child of current
    node and key value*/
-class Node
-{
+class Node {
     int key;
     Node left, right;
 
-    public Node(int item)
-    {
+    public Node(int item) {
         key = item;
         left = right = null;
     }
 }
 
 // A Java program to introduce Binary Tree
-public class BinaryTree
-{
+public class BinaryTree {
     // Root of Binary Tree
     Node root;
 
     // Constructors
-    BinaryTree(int key)
-    {
+    BinaryTree(int key) {
         root = new Node(key);
     }
 
-    BinaryTree()
-    {
+    BinaryTree() {
         root = null;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
 
         /*create root*/

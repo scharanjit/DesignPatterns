@@ -1,25 +1,26 @@
 package datastructure.T25Algo;
 
 
-class NodeLCCA{
+class NodeLCCA {
 
     int data;
-    NodeLCCA left,right;
-   public NodeLCCA(int value){
-        data=value;
-        left=right=null;
+    NodeLCCA left, right;
+
+    public NodeLCCA(int value) {
+        data = value;
+        left = right = null;
     }
 }
 
 public class LowestCommonAncestorInTree {
     NodeLCCA root;
 
-    static boolean v1,v2=false;
+    static boolean v1, v2 = false;
 
-    NodeLCCA findLCA(int n1,int n2){
+    NodeLCCA findLCA(int n1, int n2) {
 
-        v1=false;
-        v2=false;
+        v1 = false;
+        v2 = false;
 
         // Find lca of n1 and n2 using the technique discussed above
         NodeLCCA lca = findLCAUtil(root, n1, n2);
@@ -33,24 +34,23 @@ public class LowestCommonAncestorInTree {
     }
 
 
+    NodeLCCA findLCAUtil(NodeLCCA node, int n1, int n2) {
 
-    NodeLCCA findLCAUtil(NodeLCCA node, int n1, int n2){
-
-        if(node == null){
+        if (node == null) {
             return null;
         }
-        if(node.data==n1 ){
-        v1=true;
+        if (node.data == n1) {
+            v1 = true;
             return node;
         }
 
-        if(node.data==n2 ){
-            v2=true;
+        if (node.data == n2) {
+            v2 = true;
             return node;
         }
 
-        NodeLCCA left_lca= findLCAUtil(node.left,n1,n2);
-        NodeLCCA right_lca= findLCAUtil(node.right,n1,n2);
+        NodeLCCA left_lca = findLCAUtil(node.left, n1, n2);
+        NodeLCCA right_lca = findLCAUtil(node.right, n1, n2);
 
 
         // If both of the above calls return Non-NULL, then one key
@@ -65,19 +65,18 @@ public class LowestCommonAncestorInTree {
     }
 
 
-
     public static void main(String[] args) {
-        LowestCommonAncestorInTree lowestCommonAncestorInTree= new LowestCommonAncestorInTree();
+        LowestCommonAncestorInTree lowestCommonAncestorInTree = new LowestCommonAncestorInTree();
 
-        lowestCommonAncestorInTree.root= new NodeLCCA(1);
-        lowestCommonAncestorInTree.root.left= new NodeLCCA(2);
-        lowestCommonAncestorInTree.root.right= new NodeLCCA(3);
-        lowestCommonAncestorInTree.root.left.left= new NodeLCCA(4);
-        lowestCommonAncestorInTree.root.left.right= new NodeLCCA(5);
-        lowestCommonAncestorInTree.root.right.left= new NodeLCCA(6);
-        lowestCommonAncestorInTree.root.right.right= new NodeLCCA(7);
+        lowestCommonAncestorInTree.root = new NodeLCCA(1);
+        lowestCommonAncestorInTree.root.left = new NodeLCCA(2);
+        lowestCommonAncestorInTree.root.right = new NodeLCCA(3);
+        lowestCommonAncestorInTree.root.left.left = new NodeLCCA(4);
+        lowestCommonAncestorInTree.root.left.right = new NodeLCCA(5);
+        lowestCommonAncestorInTree.root.right.left = new NodeLCCA(6);
+        lowestCommonAncestorInTree.root.right.right = new NodeLCCA(7);
 
-        NodeLCCA lca= lowestCommonAncestorInTree.findLCA(4,5);
+        NodeLCCA lca = lowestCommonAncestorInTree.findLCA(4, 5);
 
         if (lca != null)
             System.out.println("LCA(4, 5) = " + lca.data);

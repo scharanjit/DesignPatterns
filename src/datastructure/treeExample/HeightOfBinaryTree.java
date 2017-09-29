@@ -3,31 +3,26 @@ package datastructure.treeExample;
 // Java program to find height of tree
 
 // A binary tree NodeHeight
-class NodeHeight
-{
+class NodeHeight {
     int data;
     NodeHeight left, right;
 
-    NodeHeight(int item)
-    {
+    NodeHeight(int item) {
         data = item;
         left = right = null;
     }
 }
 
-class BinaryTreeHeightHeight
-{
+class BinaryTreeHeightHeight {
     NodeHeight root;
 
     /* Compute the "maxDepth" of a tree -- the number of 
        NodeHeights along the longest path from the root NodeHeight 
        down to the farthest leaf NodeHeight.*/
-    int maxDepth(NodeHeight NodeHeight)
-    {
+    int maxDepth(NodeHeight NodeHeight) {
         if (NodeHeight == null)
             return 0;
-        else
-        {
+        else {
             /* compute the depth of each subtree */
             int lDepth = maxDepth(NodeHeight.left);
             int rDepth = maxDepth(NodeHeight.right);
@@ -41,8 +36,7 @@ class BinaryTreeHeightHeight
     }
 
     /* Driver program to test above functions */
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         BinaryTreeHeightHeight tree = new BinaryTreeHeightHeight();
 
         tree.root = new NodeHeight(1);

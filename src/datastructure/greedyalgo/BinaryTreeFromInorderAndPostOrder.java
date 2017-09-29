@@ -17,53 +17,53 @@ package datastructure.greedyalgo;
 * */
 
 
-class NodeMx{
+class NodeMx {
     int root;
     NodeMx left, right;
-    public NodeMx(int item){
+
+    public NodeMx(int item) {
 
 
-        root=item;
-        left=right=null;
+        root = item;
+        left = right = null;
     }
 }
 
-class Index{
+class Index {
     int index;
 }
 
 public class BinaryTreeFromInorderAndPostOrder {
 
 
-    NodeMx buiUtil(int in[],int post[],int inStart, int inEnd,Index pIndex){
-        if(inStart>inEnd){
+    NodeMx buiUtil(int in[], int post[], int inStart, int inEnd, Index pIndex) {
+        if (inStart > inEnd) {
             return null;
         }
 
         NodeMx nodeMx = new NodeMx(post[pIndex.index]);
         (pIndex.index)--;
 
-        if(inStart==inEnd){
-            return  nodeMx;
+        if (inStart == inEnd) {
+            return nodeMx;
         }
 
-        int inIndex = search(in,inStart,inEnd,nodeMx.root);
+        int inIndex = search(in, inStart, inEnd, nodeMx.root);
 
 
 //        nodeMx.right=buiUtil(in,post,inIndex+1,inEnd,pIndex);
-        nodeMx.right=buiUtil(in,post,inIndex+1,inEnd,pIndex);
-        nodeMx.left=buiUtil(in,post,inStart,inIndex-1,pIndex);
+        nodeMx.right = buiUtil(in, post, inIndex + 1, inEnd, pIndex);
+        nodeMx.left = buiUtil(in, post, inStart, inIndex - 1, pIndex);
         return nodeMx;
-
 
 
     }
 
-    int search(int in[],int inStart, int inEnd, int value){
+    int search(int in[], int inStart, int inEnd, int value) {
         int i;
 
-        for(i=inStart;i<=inEnd;i++){
-            if(in[i]==value){
+        for (i = inStart; i <= inEnd; i++) {
+            if (in[i] == value) {
                 return i;
             }
         }
@@ -71,32 +71,33 @@ public class BinaryTreeFromInorderAndPostOrder {
         return i;
     }
 
-    NodeMx buildTree(int in[],int post[],int len){
-            Index pIndex= new Index();
+    NodeMx buildTree(int in[], int post[], int len) {
+        Index pIndex = new Index();
 
-            pIndex.index=len-1;
+        pIndex.index = len - 1;
 
-        return buiUtil(in,post,0,len-1,pIndex);
+        return buiUtil(in, post, 0, len - 1, pIndex);
     }
 
-    void preOrder(NodeMx node){
-        if(node==null){
+    void preOrder(NodeMx node) {
+        if (node == null) {
             return;
         }
         System.out.println(node.root);
-       preOrder( node.left);
-       preOrder( node.right);
+        preOrder(node.left);
+        preOrder(node.right);
 
 
     }
+
     public static void main(String[] args) {
-        
+
         int in[] = new int[]{4, 8, 2, 5, 1, 6, 3, 7};
         int post[] = new int[]{8, 4, 5, 2, 6, 7, 3, 1};
         int len = in.length;
         BinaryTreeFromInorderAndPostOrder binaryTreeFromInorderAndPostOrder = new BinaryTreeFromInorderAndPostOrder();
-      NodeMx root=  binaryTreeFromInorderAndPostOrder.buildTree(in,post,len);
-        
+        NodeMx root = binaryTreeFromInorderAndPostOrder.buildTree(in, post, len);
+
         binaryTreeFromInorderAndPostOrder.preOrder(root);
     }
 

@@ -26,7 +26,7 @@ public class BinaryTreePreOrder {
     }
 
     // Iterative solution
-    public  void preorderIter(TreeNode root) {
+    public void preorderIter(TreeNode root) {
 
         if (root == null)
             return;

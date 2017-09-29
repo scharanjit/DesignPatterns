@@ -7,39 +7,33 @@ package datastructure.treeExample;
  NodeBT and key value
  Time Complexity: O(n)
  */
-class NodeBT
-{
+class NodeBT {
     int data;
     NodeBT left, right;
 
-    public NodeBT(int item)
-    {
+    public NodeBT(int item) {
         data = item;
         left = right = null;
     }
 }
 
 // A utility class to pass heigh object
-class Height
-{
+class Height {
     int h;
 }
 
 /* Class to print the Diameter */
-class OptimizedDiameterBinaryTree
-{
+class OptimizedDiameterBinaryTree {
     NodeBT root;
 
     /* define height =0 globally and  call diameterOpt(root,height)
        from main */
-    int diameterOpt(NodeBT root, Height height)
-    {
+    int diameterOpt(NodeBT root, Height height) {
         /* lh --> Height of left subtree
            rh --> Height of right subtree */
         Height lh = new Height(), rh = new Height();
 
-        if (root == null)
-        {
+        if (root == null) {
             height.h = 0;
             return 0; /* diameter is also 0 */
         }
@@ -48,7 +42,8 @@ class OptimizedDiameterBinaryTree
            rdiameter  --> Diameter of right subtree */ 
         /* Get the heights of left and right subtrees in lh and rh
          And store the returned values in ldiameter and ldiameter */
-        lh.h++;     rh.h++;
+        lh.h++;
+        rh.h++;
         int ldiameter = diameterOpt(root.left, lh);
         int rdiameter = diameterOpt(root.right, rh);
  
@@ -60,8 +55,7 @@ class OptimizedDiameterBinaryTree
     }
 
     /* A wrapper over diameter(NodeBT root) */
-    int diameter()
-    {
+    int diameter() {
         Height height = new Height();
         return diameterOpt(root, height);
     }
@@ -69,8 +63,7 @@ class OptimizedDiameterBinaryTree
     /*The function Compute the "height" of a tree. Height is the
       number f NodeBTs along the longest path from the root NodeBT
       down to the farthest leaf NodeBT.*/
-    static int height(NodeBT NodeBT)
-    {
+    static int height(NodeBT NodeBT) {
         /* base case tree is empty */
         if (NodeBT == null)
             return 0;
@@ -80,8 +73,7 @@ class OptimizedDiameterBinaryTree
         return (1 + Math.max(height(NodeBT.left), height(NodeBT.right)));
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         /* creating a binary tree and entering the NodeBTs */
         OptimizedDiameterBinaryTree tree = new OptimizedDiameterBinaryTree();
         tree.root = new NodeBT(1);
