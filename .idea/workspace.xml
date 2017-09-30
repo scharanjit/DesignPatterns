@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6624ba4d-8b1c-4f27-9c77-1cf531c42a63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/T25Algo/MatrixInSpiralForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/TBackLog/DataStructureCricketScores.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/TBackLog/GeographicallyPartitionedMultiPlayerCardGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/TBackLog/LRUCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/datastructure/T25Algo/GoogleSearchAlgo.java" afterPath="$PROJECT_DIR$/src/datastructure/TBackLog/GoogleSearchAlgo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/datastructure/greedyalgo/DesignCarParkingLot.java" afterPath="$PROJECT_DIR$/src/datastructure/TBackLog/DesignCarParkingLot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/T25Algo/GraphTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/T25Algo/ImplementQueuesUsingStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/T25Algo/ImplementStackUsingQueues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListDeleteNthNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListNthNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListNthNodee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,101 +35,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedlistMiddle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LinkedlistMiddle.java">
+      <file leaf-file-name="GraphTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListPairSwap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListPairSwap.java">
+      <file leaf-file-name="LinkedListNthNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListNthNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="64">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignCarParkingLot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/TBackLog/DesignCarParkingLot.java">
+      <file leaf-file-name="LinkedListDeleteNthNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListDeleteNthNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImplementStackUsingQueues.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/ImplementStackUsingQueues.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElevatorCabin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/greedyalgo/ElevatorCabin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeographicallyPartitionedMultiPlayerCardGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/TBackLog/GeographicallyPartitionedMultiPlayerCardGame.java">
+      <file leaf-file-name="ImplementQueuesUsingStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/ImplementQueuesUsingStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStructureCricketScores.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/TBackLog/DataStructureCricketScores.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/TBackLog/LRUCache.java">
+      <file leaf-file-name="LinkedListNthNodee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListNthNodee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleSearchAlgo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/TBackLog/GoogleSearchAlgo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/singletonAndSynchronization/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatrixInSpiralForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/MatrixInSpiralForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="151">
+              <caret line="65" column="23" lean-forward="true" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -153,10 +124,10 @@
       <find>NodeSizeSize</find>
       <find>Movie</find>
       <find>distSquareuare</find>
-      <find>Node</find>
       <find>NodeM</find>
       <find>char</find>
       <find>item</find>
+      <find>Node</find>
     </findStrings>
     <replaceStrings>
       <replace>BinaryTree1</replace>
@@ -172,6 +143,7 @@
       <replace>NodeMx</replace>
       <replace>Noduu</replace>
       <replace>data</replace>
+      <replace>NodeDel</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -185,11 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/datastructure/treeExample/OptimizedDiameterBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/treeExample/DiameterBinayTree.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/treeExample/HeightOfBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/treeExample/SizeOfTree.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/StackQueue/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/datastructure/memorymanagement/theory.txt" />
         <option value="$PROJECT_DIR$/src/datastructure/memorymanagement/FirstFitAlgoMemManagement.java" />
         <option value="$PROJECT_DIR$/src/datastructure/memorymanagement/NextFitAlgoMemManagement.java" />
@@ -236,6 +203,11 @@
         <option value="$PROJECT_DIR$/src/datastructure/T25Algo/MatrixInSpiralForm.java" />
         <option value="$PROJECT_DIR$/src/datastructure/TBackLog/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/datastructure/TBackLog/GoogleSearchAlgo.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListNthNodee.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListNthNode.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListDeleteNthNode.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -359,15 +331,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MatrixInSpiralForm">
-    <configuration name="LeftViewBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.LinkedListDeleteNthNode">
+    <configuration name="GraphTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructure.TBackLog.*" />
+          <option name="PATTERN" value="datastructure.T25Algo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.T25Algo.LeftViewBinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.T25Algo.GraphTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -379,14 +351,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="LinkedListPairSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructure.TBackLog.*" />
+          <option name="PATTERN" value="datastructure.T25Algo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.T25Algo.LinkedListPairSwap" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.T25Algo.LinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -398,14 +370,33 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="LinkedlistMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListDeleteNthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructure.TBackLog.*" />
+          <option name="PATTERN" value="datastructure.T25Algo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.T25Algo.LinkedlistMiddle" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.T25Algo.LinkedListDeleteNthNode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DesignPatterns" />
+      <envs />
+    </configuration>
+    <configuration name="LinkedListNthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="datastructure.T25Algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="datastructure.T25Algo.LinkedListNthNode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -436,25 +427,6 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="RoundRobinSchedulingCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="datastructure.TBackLog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.T25Algo.RoundRobinSchedulingCache" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DesignPatterns" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -471,19 +443,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LeftViewBinaryTree" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RoundRobinSchedulingCache" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LinkedlistMiddle" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LinkedListPairSwap" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MatrixInSpiralForm" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MatrixInSpiralForm" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GraphTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LinkedListNthNode" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LinkedList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LinkedListDeleteNthNode" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MatrixInSpiralForm" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LinkedListPairSwap" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LinkedlistMiddle" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RoundRobinSchedulingCache" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LeftViewBinaryTree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListDeleteNthNode" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LinkedListNthNode" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LinkedList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GraphTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MatrixInSpiralForm" />
       </list>
     </recent_temporary>
   </component>
@@ -529,18 +501,19 @@
       <workItem from="1506606388918" duration="204000" />
       <workItem from="1506666812811" duration="4987000" />
       <workItem from="1506701236060" duration="4542000" />
-      <workItem from="1506768593055" duration="122000" />
+      <workItem from="1506768593055" duration="7399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143452000" />
+    <option name="totallyTimeSpent" value="150729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="96" y="24" width="1315" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -548,7 +521,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.50276244" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22861587" sideWeight="0.49723756" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32037324" sideWeight="0.49723756" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -566,7 +539,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
@@ -811,55 +783,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/datastructure/memorymanagement/theory.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="92" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/memorymanagement/NextFitAlgoMemManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/VectorVsArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="53" column="15" lean-forward="false" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_111/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="107" column="18" lean-forward="false" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/ArrayListVsLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/ComparablevsComparator1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/ComparablevsComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="59" column="74" lean-forward="false" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/HashMapVsWeakHashmap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1146,8 +1069,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/TBackLog/GoogleSearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListNthNodee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="65" column="23" lean-forward="true" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListNthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListDeleteNthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/ImplementStackUsingQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/ImplementQueuesUsingStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
           <folding />
         </state>
       </provider>
