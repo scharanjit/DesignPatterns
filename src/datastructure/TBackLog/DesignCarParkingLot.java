@@ -1,4 +1,4 @@
-package datastructure.greedyalgo;
+package datastructure.TBackLog;
 
 public class DesignCarParkingLot {
 }
