@@ -7,16 +7,16 @@ public class Singleton {
     private static Singleton instance = null;
     //double check
     private static Object lock = new Object();
-    
+
 
     //make the constructor private so that this class can not be instantiated in any other way
-    private Singleton(){
+    private Singleton() {
 
     }
 
     //get the object available
     //Draconian synchronization
-    public static synchronized Singleton getInstance(){
+    public static synchronized Singleton getInstance() {
         if (instance == null) {
             //double check synchronization
             synchronized (lock) {
@@ -25,7 +25,7 @@ public class Singleton {
                 }
             }
         }
-        return  instance;
+        return instance;
     }
 
     //if we use below getInstance method

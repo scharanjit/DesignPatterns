@@ -4,12 +4,12 @@ package datastructure.T25Algo;
 /**
  * Given a Singly Linked List, write a function to delete a given node.
  * Your function must follow following constraints:
- 1) It must accept pointer to the start node as first parameter and node to
- be deleted as second parameter i.e., pointer to head node is not global.
- 2) It should not return pointer to the head node.
- 3) It should not accept pointer to pointer to head node.
-
- You may assume that the Linked List never becomes empty.
+ * 1) It must accept pointer to the start node as first parameter and node to
+ * be deleted as second parameter i.e., pointer to head node is not global.
+ * 2) It should not return pointer to the head node.
+ * 3) It should not accept pointer to pointer to head node.
+ * <p>
+ * You may assume that the Linked List never becomes empty.
  */
 public class LinkedListDeleteNthNode {
 
@@ -87,7 +87,6 @@ public class LinkedListDeleteNthNode {
 
 
 // Java program to delete a given node in linked list under given constraints
-
 
 
     }

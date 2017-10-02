@@ -1,10 +1,10 @@
 package practise.makes.a.man.perfect.singletonAndSynchronization;
 
-public class TestThread implements  Runnable{
+public class TestThread implements Runnable {
     private String threadName;
 
     public void run() {
-        for(int i=0; i<1000 ; i++) {
+        for (int i = 0; i < 1000; i++) {
             Singleton singleton = Singleton.getInstance();
             Singleton singleton1 = Singleton.getInstance();
             Singleton singleton2 = Singleton.getInstance();
@@ -29,26 +29,26 @@ public class TestThread implements  Runnable{
             System.out.println(singleton.equals(singleton2));
             System.out.println(singleton.equals(singleton3));
             System.out.println(singleton.equals(singleton4));
-            System.out.println(singleton1.hashCode()==singleton.hashCode());
-            System.out.println(singleton1.hashCode()==singleton2.hashCode());
-            System.out.println(singleton1.hashCode()==singleton3.hashCode());
-            System.out.println(singleton1.hashCode()==singleton4.hashCode());
-            System.out.println(singleton2.hashCode()==singleton.hashCode());
-            System.out.println(singleton2.hashCode()==singleton3.hashCode());
-            System.out.println(singleton2.hashCode()==singleton4.hashCode());
-            System.out.println(singleton3.hashCode()==singleton.hashCode());
-            System.out.println(singleton3.hashCode()==singleton2.hashCode());
-            System.out.println(singleton3.hashCode()==singleton4.hashCode());
-            System.out.println(singleton4.hashCode()==singleton.hashCode());
-            System.out.println(singleton4.hashCode()==singleton2.hashCode());
-            System.out.println(singleton4.hashCode()==singleton3.hashCode());
-            System.out.println(singleton.hashCode()==singleton4.hashCode());
+            System.out.println(singleton1.hashCode() == singleton.hashCode());
+            System.out.println(singleton1.hashCode() == singleton2.hashCode());
+            System.out.println(singleton1.hashCode() == singleton3.hashCode());
+            System.out.println(singleton1.hashCode() == singleton4.hashCode());
+            System.out.println(singleton2.hashCode() == singleton.hashCode());
+            System.out.println(singleton2.hashCode() == singleton3.hashCode());
+            System.out.println(singleton2.hashCode() == singleton4.hashCode());
+            System.out.println(singleton3.hashCode() == singleton.hashCode());
+            System.out.println(singleton3.hashCode() == singleton2.hashCode());
+            System.out.println(singleton3.hashCode() == singleton4.hashCode());
+            System.out.println(singleton4.hashCode() == singleton.hashCode());
+            System.out.println(singleton4.hashCode() == singleton2.hashCode());
+            System.out.println(singleton4.hashCode() == singleton3.hashCode());
+            System.out.println(singleton.hashCode() == singleton4.hashCode());
         }
     }
 
-    public TestThread(String name){
+    public TestThread(String name) {
         threadName = name;
-        System.out.println("Creating " +  threadName );
+        System.out.println("Creating " + threadName);
     }
 
     public static void main(String[] args) {

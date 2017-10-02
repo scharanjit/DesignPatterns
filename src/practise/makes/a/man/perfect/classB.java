@@ -2,10 +2,10 @@ package practise.makes.a.man.perfect;
 
 abstract class classA {
 
-   abstract void methodA();
+    abstract void methodA();
 }
 
-interface classC{
+interface classC {
     void methodB();
 }
 

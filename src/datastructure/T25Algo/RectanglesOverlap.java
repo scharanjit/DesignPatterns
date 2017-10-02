@@ -95,37 +95,28 @@ public class RectanglesOverlap {
 }
 
 /**
- *
- *
- *
  * think this way
- *
- *
- *        x1,y1
- *
- *
- *                          x2,y2
- *
- *
- *
- *
- *
- *      a1,b1
- *
- *
- *                         a2,b2
- *
- *
- *     if (x1  >   a2  ||
- *         x2  <   a1  ||
- *         y1  <   b2  ||
- *         y2  >   b1) if any is true , then rex NOT overlapping or intersecting
- *
- *
- *
- *
- *
- *
+ * <p>
+ * <p>
+ * x1,y1
+ * <p>
+ * <p>
+ * x2,y2
+ * <p>
+ * <p>
+ * <p>
+ * <p>
+ * <p>
+ * a1,b1
+ * <p>
+ * <p>
+ * a2,b2
+ * <p>
+ * <p>
+ * if (x1  >   a2  ||
+ * x2  <   a1  ||
+ * y1  <   b2  ||
+ * y2  >   b1) if any is true , then rex NOT overlapping or intersecting
  */
 
 
