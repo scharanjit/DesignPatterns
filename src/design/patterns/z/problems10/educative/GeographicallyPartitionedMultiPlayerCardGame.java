@@ -1,4 +1,4 @@
-package datastructure.TBackLog;
+package design.patterns.z.problems10.educative;
 
 public class GeographicallyPartitionedMultiPlayerCardGame {
 }
