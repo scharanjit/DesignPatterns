@@ -8,8 +8,9 @@ public final class TokenBuckets {
 
     public static TokenBucket newFixedIntervalRefill(long capacityTokens, long refillTokens, long period, TimeUnit unit)
     {
-        TokenBucket.RefillStrategy strategy = new FixedIntervalRefillStrategy(refillTokens, period, unit);
-        return new TokenBucket(capacityTokens, strategy);
+//        TokenBucket.RefillStrategy strategy = new FixedIntervalRefillStrategy(refillTokens, period, unit);
+//        return new TokenBucket(capacityTokens, strategy);
+    return null;
     }
 
 }

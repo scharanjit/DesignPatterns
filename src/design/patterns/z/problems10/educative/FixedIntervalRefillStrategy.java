@@ -3,7 +3,7 @@ package design.patterns.z.problems10.educative;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-public class FixedIntervalRefillStrategy implements TokenBucket.RefillStrategy {
+public class FixedIntervalRefillStrategy {
     private final long numTokens;
     private final long intervalInMillis;
     private AtomicLong nextRefillTime;
