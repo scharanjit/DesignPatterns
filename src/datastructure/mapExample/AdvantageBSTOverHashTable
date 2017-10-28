@@ -4,7 +4,7 @@ Hash Table supports following operation in O(1) times
 3. Delete
 
 For a Self balancing BST , the time complexity for these operations is
-O(logn)
+O(log n)
 
 
 Advantage of BST over HashTable:-

@@ -1,4 +1,4 @@
-package datastructure.greedyalgo;
+package design.patterns.z.problems10.educative;
 
 public class ElevatorEngineDriver {
     public static void main(String[] args) {

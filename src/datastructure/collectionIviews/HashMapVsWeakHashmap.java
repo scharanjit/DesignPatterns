@@ -42,7 +42,7 @@ public class HashMapVsWeakHashmap {
 
         WeakHashMap m1 = new WeakHashMap();
         Demo d1 = new Demo();
-
+        System.out.println("Weak Hashmap Started ==>");
         // puts an entry into WeakHashMap
         m1.put(d1, " Hi ");
         System.out.println(m1);
@@ -68,6 +68,7 @@ class Demo {
     }
 
     // finalize method
+    @Override
     public void finalize() {
         System.out.println("Finalize method is called");
     }

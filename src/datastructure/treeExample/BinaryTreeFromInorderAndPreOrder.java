@@ -1,7 +1,7 @@
-package datastructure.greedyalgo;
+package datastructure.treeExample;
 // Java program to construct a tree using inorder and preorder traversal
 
-/* A binary tree node has data, pointer to left child
+/* A binary tree NodeI has data, pointer to left child
    and a pointer to right child
 
    => Create buildTree method
@@ -11,46 +11,46 @@ package datastructure.greedyalgo;
 
 
    first do check if start>end return null
-        Node tNOde = new Node(pre[pereI++])
-            if (inS= end) return tNode
+        NodeI tNodeI = new NodeI(pre[pereI++])
+            if (inS= end) return tNodeI
         int InIndes= search find index
 
-        Node.left= recursion buildTree
-        Node.left= recursion buldtree
+        NodeI.left= recursion buildTree
+        NodeI.left= recursion buldtree
 
    */
-class Node {
+class NodeI {
     char root;
-    Node left, right;
+    NodeI left, right;
 
-    public Node(char item) {
+    public NodeI(char item) {
         root = item;
         left = right = null;
     }
 }
 
 class BinaryTreeFromInorderAndPreOrder {
-    Node root;
+    NodeI root;
     int preIndex = 0;
 
-    Node buildTree(char in[], char pre[], int inStart, int inEnd) {
+    NodeI buildTree(char in[], char pre[], int inStart, int inEnd) {
         if (inStart > inEnd) {
             return null;
         }
 
-        Node tNode = new Node(pre[preIndex++]);
+        NodeI tNodeI = new NodeI(pre[preIndex++]);
 
         if (inStart == inEnd) {
-            return tNode;
+            return tNodeI;
         }
 
-//        int indexSearch = search(pre, inStart, inEnd, tNode.root);
-        int indexSearch = search(in, inStart, inEnd, tNode.root);
+//        int indexSearch = search(pre, inStart, inEnd, tNodeI.root);
+        int indexSearch = search(in, inStart, inEnd, tNodeI.root);
 
-        tNode.left = buildTree(in, pre, inStart, indexSearch - 1);
-        tNode.right = buildTree(in, pre, indexSearch + 1, inEnd);
+        tNodeI.left = buildTree(in, pre, inStart, indexSearch - 1);
+        tNodeI.right = buildTree(in, pre, indexSearch + 1, inEnd);
 
-        return tNode;
+        return tNodeI;
 
     }
 
@@ -66,13 +66,13 @@ class BinaryTreeFromInorderAndPreOrder {
         return i;
     }
 
-    void printInorder(Node node) {
-        if (node == null) {
+    void printInorder(NodeI NodeI) {
+        if (NodeI == null) {
             return;
         }
-        printInorder(node.left);
-        System.out.println(node.root);
-        printInorder(node.right);
+        printInorder(NodeI.left);
+        System.out.println(NodeI.root);
+        printInorder(NodeI.right);
     }
 
     public static void main(String[] args) {
@@ -81,7 +81,7 @@ class BinaryTreeFromInorderAndPreOrder {
         char pre[] = new char[]{'A', 'B', 'D', 'E', 'C', 'F'};
 
         int lenght = in.length;
-        Node root = binaryTreeFromInorderAndPreOrder.buildTree(in, pre, 0, lenght - 1);
+        NodeI root = binaryTreeFromInorderAndPreOrder.buildTree(in, pre, 0, lenght - 1);
         binaryTreeFromInorderAndPreOrder.printInorder(root);
     }
 

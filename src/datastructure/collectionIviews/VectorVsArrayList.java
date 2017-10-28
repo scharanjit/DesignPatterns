@@ -38,7 +38,8 @@ public class VectorVsArrayList {
 }
 
 /*
-ArrayList and Vectors both implements List interface and both use array(dynamically resizeable) as
+ArrayList and Vectors both implements List interface and both use
+ array(dynamically resizeable) as
  data structure internally very much like using an ordinary array.
 Differnce
    1.) Vector is synchronized that means at a time only one thread can access
@@ -46,11 +47,13 @@ Differnce
  work on arrayList at same time.
 
 
-2.) ArrayList is faster as it is non-synchronized while vector operations give slow performance as
+2.) ArrayList is faster as it is non-synchronized while vector
+operations give slow performance as
  they are synchronized(thread-safe).
 
 
-3.)  Data Growth: ArrayList and Vector both grow and shrink dynamically to maintain optimal use
+3.)  Data Growth: ArrayList and Vector both grow and shrink dynamically
+to maintain optimal use
  of storage. But the way they resized is different. ArrayList increments 50%
  of current array size if number of elements exceeds its capacity while vector
   increments 100% means doubles the current array size.

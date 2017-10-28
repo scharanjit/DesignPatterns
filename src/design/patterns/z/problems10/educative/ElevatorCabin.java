@@ -1,4 +1,6 @@
-package datastructure.greedyalgo;
+package design.patterns.z.problems10.educative;
+
+import design.patterns.z.problems10.educative.UpDownEnum;
 
 import java.util.TreeSet;
 

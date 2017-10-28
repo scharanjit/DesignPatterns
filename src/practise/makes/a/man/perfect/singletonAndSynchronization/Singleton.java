@@ -3,13 +3,14 @@ package practise.makes.a.man.perfect.singletonAndSynchronization;
 
 public class Singleton {
 
-    //create an abject of single class
+    //create an object of single class
     private static Singleton instance = null;
     //double check
     private static Object lock = new Object();
 
 
-    //make the constructor private so that this class can not be instantiated in any other way
+    //make the constructor private so that this class can not
+    // be instantiated in any other way
     private Singleton() {
 
     }

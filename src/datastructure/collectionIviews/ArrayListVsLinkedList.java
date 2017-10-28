@@ -42,14 +42,17 @@ public class ArrayListVsLinkedList {
    while adding is O(1) operation in LinkedList in Java. ArrayList also needs to
    be update its index if you insert something anywhere except at the end of array.
 
-2.) Removal also better in LinkedList than ArrayList due to same reasons as insertion.
+2.) Removal also better in LinkedList than ArrayList due to same reasons
+ as insertion.
 
 3.)LinkedList has more memory overhead than ArrayList because in ArrayList
  each index only holds actual object (data) but in case of LinkedList each node
   holds both data and address if next and previous node.
 
-4.) Both LinkedList and ArrayList require O(n) time to find if an element is present
- or not. However we can do Binary Search on ArrayList if it is sorted and therefore
+4.) Both LinkedList and ArrayList require O(n) time to find if an element
+ is present
+ or not. However we can do Binary Search on ArrayList if it is sorted
+ and therefore
   can search in O(Log n) time.
 
  */

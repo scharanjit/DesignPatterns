@@ -1,4 +1,4 @@
-package datastructure.greedyalgo;
+package datastructure.treeExample;
 
 // Java program to construct a tree using inorder
 // and postorder traversals

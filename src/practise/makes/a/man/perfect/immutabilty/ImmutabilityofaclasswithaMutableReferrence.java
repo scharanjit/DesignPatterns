@@ -1,7 +1,7 @@
 package practise.makes.a.man.perfect.immutabilty;
 
 /**
- * We have one immutble class and inside this class has refernece as mutable
+ * We have one immutable class and inside this class has reference as mutable
  *
  * Employee immutable
  * Address mutable
