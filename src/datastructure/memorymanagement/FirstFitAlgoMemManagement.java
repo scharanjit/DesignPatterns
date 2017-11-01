@@ -6,10 +6,10 @@ package datastructure.memorymanagement;
  * processSize[] = {212, 417, 112, 426};
  * Output:
  * Process No.	Process Size	Block no.
- *      1		    212		        2
- *      2		    417		        5
- *      3		    112		        2
- *      4		    426		    Not Allocated
+ * 1		    212		        2
+ * 2		    417		        5
+ * 3		    112		        2
+ * 4		    426		    Not Allocated
  * Its advantage is that it is the fastest search as it searches only
  * the first block i.e. enough to assign a process.
  * It may problems of not allowing processes to take space even if

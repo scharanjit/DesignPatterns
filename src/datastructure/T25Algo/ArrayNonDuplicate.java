@@ -70,9 +70,10 @@ public class ArrayNonDuplicate {
         int[] arr = {1, 2, 2, 3, 4, 3, 4, 5, 5, 6, 7, 7, 0, 0, 9, 8};
 
         duplicate(arr);
-        int arr1[] = {3, 4, 1, 3, 1, 7, 2, 2, 4};
         System.out.println();
         nonRepeatingElement(arr);
+        System.out.println();
+//        int arr1[] = {3, 4, 1, 3, 1, 7, 2, 2, 4};
 //        System.out.println("Non repeating element: "+getSingle(arr1,arr1.length)+" ");
     }
 }

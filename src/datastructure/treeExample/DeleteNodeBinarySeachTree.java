@@ -1,15 +1,13 @@
 package datastructure.treeExample;
+
 // Java program to demonstrate delete operation in binary search tree
-public class DeleteNodeBinarySeachTree
-{
+public class DeleteNodeBinarySeachTree {
     /* Class containing left and right child of current node and key value*/
-    class Node
-    {
+    class Node {
         int key;
         Node left, right;
 
-        public Node(int item)
-        {
+        public Node(int item) {
             key = item;
             left = right = null;
         }
@@ -19,22 +17,19 @@ public class DeleteNodeBinarySeachTree
     Node root;
 
     // Constructor
-    DeleteNodeBinarySeachTree()
-    {
+    DeleteNodeBinarySeachTree() {
         root = null;
     }
 
     // This method mainly calls deleteRec()
-    void deleteKey(int key)
-    {
+    void deleteKey(int key) {
         root = deleteRec(root, key);
     }
 
     /* A recursive function to insert a new key in BST */
-    Node deleteRec(Node root, int key)
-    {
+    Node deleteRec(Node root, int key) {
         /* Base Case: If the tree is empty */
-        if (root == null)  return root;
+        if (root == null) return root;
  
         /* Otherwise, recur down the tree */
         if (key < root.key)
@@ -44,8 +39,7 @@ public class DeleteNodeBinarySeachTree
 
             // if key is same as root's key, then This is the node
             // to be deleted
-        else
-        {
+        else {
             // node with only one child or no child
             if (root.left == null)
                 return root.right;
@@ -63,11 +57,9 @@ public class DeleteNodeBinarySeachTree
         return root;
     }
 
-    int minValue(Node root)
-    {
+    int minValue(Node root) {
         int minv = root.key;
-        while (root.left != null)
-        {
+        while (root.left != null) {
             minv = root.left.key;
             root = root.left;
         }
@@ -75,18 +67,15 @@ public class DeleteNodeBinarySeachTree
     }
 
     // This method mainly calls insertRec()
-    void insert(int key)
-    {
+    void insert(int key) {
         root = insertRec(root, key);
     }
 
     /* A recursive function to insert a new key in BST */
-    Node insertRec(Node root, int key)
-    {
+    Node insertRec(Node root, int key) {
  
         /* If the tree is empty, return a new node */
-        if (root == null)
-        {
+        if (root == null) {
             root = new Node(key);
             return root;
         }
@@ -102,16 +91,13 @@ public class DeleteNodeBinarySeachTree
     }
 
     // This method mainly calls InorderRec()
-    void inorder()
-    {
+    void inorder() {
         inorderRec(root);
     }
 
     // A utility function to do inorder traversal of BST
-    void inorderRec(Node root)
-    {
-        if (root != null)
-        {
+    void inorderRec(Node root) {
+        if (root != null) {
             inorderRec(root.left);
             System.out.print(root.key + " ");
             inorderRec(root.right);
@@ -119,8 +105,7 @@ public class DeleteNodeBinarySeachTree
     }
 
     // Driver Program to test above functions
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         DeleteNodeBinarySeachTree tree = new DeleteNodeBinarySeachTree();
  
         /* Let us create following BST

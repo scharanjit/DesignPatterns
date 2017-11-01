@@ -7,13 +7,12 @@ public class Djikstra {
 
 
     public static void main(String[] args) {
-        Node nodeA= new Node("A");
-        Node nodeB= new Node("B");
-        Node nodeC= new Node("C");
-        Node nodeD= new Node("D");
-        Node nodeE= new Node("E");
-        Node nodeF= new Node("F");
-
+        Node nodeA = new Node("A");
+        Node nodeB = new Node("B");
+        Node nodeC = new Node("C");
+        Node nodeD = new Node("D");
+        Node nodeE = new Node("E");
+        Node nodeF = new Node("F");
 
 
         nodeA.addDestination(nodeB, 10);
@@ -41,7 +40,7 @@ public class Djikstra {
 
         Djikstra djikstra = new Djikstra();
 
-        djikstra.shortestPath(graph,nodeA);
+        djikstra.shortestPath(graph, nodeA);
     }
 
     private void shortestPath(Graph graph, Node source) {
@@ -55,10 +54,9 @@ public class Djikstra {
         unsettledNode.add(source);
 
 
-        while(unsettledNode.size() !=0){
+        while (unsettledNode.size() != 0) {
 
         }
-
 
 
     }

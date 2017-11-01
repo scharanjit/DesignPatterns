@@ -2,7 +2,7 @@ package datastructure.T25Algo;
 
 /*
 Product of 3 should be maximum
-// the whole appraoch is to find the 2 minimum number & 3 maximum numbers
+// the whole appraoch is to find the 2 minimum number  and 1 max  or 3 maximum numbers
 //since 2 negative and 1 positive becomes MAximum Product
 OR 3 positive bcms MAximum product
 

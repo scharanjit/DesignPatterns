@@ -7,62 +7,23 @@ import java.util.Random;
 
 public class Prsav {
 
-
     ArrayList<Integer> arrayList;
-    HashMap<Integer, Integer> hash;
+    HashMap<Integer,Integer> hashMap;
 
-    public Prsav() {
-        arrayList = new ArrayList<>();
-        hash = new HashMap<>();
+    public Prsav(){
+        arrayList = new ArrayList();
+        hashMap = new HashMap();
     }
 
-
-    public void add(int x) {
-
-        if (hash.get(x) != null) {
+    public void add(int x){
+        if(hashMap.get(x) == null)
             return;
-        }
-
 
         arrayList.add(x);
         int size = arrayList.size();
-        hash.put(x, size);
 
-    }
+        hashMap.put(x,size);
 
-
-    public void remove(int x) {
-
-        Integer index = hash.get(x);
-        if (index == null) {
-            return;
-        }
-
-        hash.remove(x);
-        int size = arrayList.size();
-        int last = arrayList.get(size - 1);
-
-        Collections.swap(arrayList, index, size - 1);
-        arrayList.remove(size - 1);
-
-        hash.put(last, index);
-
-
-    }
-
-
-    public int getRandom() {
-
-        Random random = new Random();
-
-        int index = random.nextInt(arrayList.size());
-
-        return arrayList.get(index);
-    }
-
-
-    Integer search(int x) {
-        return hash.get(x);
     }
 
 
@@ -81,5 +42,42 @@ public class Prsav {
         System.out.println(prsav.search(9));
         System.out.println(prsav.getRandom());
         System.out.println(prsav.getRandom());
+    }
+
+    private void remove(int i) {
+       Integer index = hashMap.get(i);
+        if(index==null)
+            return;
+        hashMap.remove(i);
+
+        int size =arrayList.size();
+
+        Integer last =arrayList.get(size-1);
+
+        Collections.swap(arrayList,index,size-1);
+
+        hashMap.put(last,index);
+
+
+
+
+
+    }
+
+    private int getRandom() {
+
+        Random random = new Random();
+        int index =  random.nextInt(arrayList.size());
+        return (int)arrayList.get(index);
+    }
+
+    private boolean search(int i) {
+
+     if(hashMap.get(i) != null)
+         return true;
+
+     return false;
+
+
     }
 }

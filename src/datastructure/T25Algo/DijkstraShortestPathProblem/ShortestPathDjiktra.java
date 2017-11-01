@@ -4,30 +4,29 @@ package datastructure.T25Algo.DijkstraShortestPathProblem;
 import java.util.*;
 
 /**
- *Algorithm to find shortest path on weightted graph
- *
- *A graph has vertex and edges
- *
+ * Algorithm to find shortest path on weightted graph
+ * <p>
+ * A graph has vertex and edges
+ * <p>
  * vertext==>City Name
  * edges==>distance between two cities  or
  * the roads are the edges with some weigth
- *
+ * <p>
  * find the shortest path
- *
- *
- *  Set distance to startNode to zero.
-    Set all other distances to an infinite value.
-    We add the startNode to the unsettled nodes set.
-    While the unsettled nodes set is not empty we:
-        Choose an evaluation node from the unsettled nodes set,
-        the evaluation node should be the one with the lowest distance
-        from the source.
-
-        Calculate new distances to direct neighbors by keeping the lowest
-        distance at each evaluation.
-
-        Add neighbors that are not yet settled to the unsettled nodes set.
- *
+ * <p>
+ * <p>
+ * Set distance to startNode to zero.
+ * Set all other distances to an infinite value.
+ * We add the startNode to the unsettled nodes set.
+ * While the unsettled nodes set is not empty we:
+ * Choose an evaluation node from the unsettled nodes set,
+ * the evaluation node should be the one with the lowest distance
+ * from the source.
+ * <p>
+ * Calculate new distances to direct neighbors by keeping the lowest
+ * distance at each evaluation.
+ * <p>
+ * Add neighbors that are not yet settled to the unsettled nodes set.
  */
 public class ShortestPathDjiktra {
 
@@ -42,7 +41,7 @@ public class ShortestPathDjiktra {
         while (unsettledNodes.size() != 0) {
             Node currentNode = getLowestDistanceNode(unsettledNodes);
             unsettledNodes.remove(currentNode);
-            for (Map.Entry< Node, Integer> adjacencyPair:
+            for (Map.Entry<Node, Integer> adjacencyPair :
                     currentNode.getAdjacentNodes().entrySet()) {
                 Node adjacentNode = adjacencyPair.getKey();
                 Integer edgeWeight = adjacencyPair.getValue();
@@ -57,10 +56,10 @@ public class ShortestPathDjiktra {
     }
 
 
-    private static Node getLowestDistanceNode(Set < Node > unsettledNodes) {
+    private static Node getLowestDistanceNode(Set<Node> unsettledNodes) {
         Node lowestDistanceNode = null;
         int lowestDistance = Integer.MAX_VALUE;
-        for (Node node: unsettledNodes) {
+        for (Node node : unsettledNodes) {
             int nodeDistance = node.getDistance();
             if (nodeDistance < lowestDistance) {
                 lowestDistance = nodeDistance;
@@ -71,7 +70,7 @@ public class ShortestPathDjiktra {
     }
 
 
-    private static void calculateMinimumDistance(Node evaluationNode,Integer edgeWeigh,
+    private static void calculateMinimumDistance(Node evaluationNode, Integer edgeWeigh,
                                                  Node sourceNode) {
         Integer sourceDistance = sourceNode.getDistance();
         if (sourceDistance + edgeWeigh < evaluationNode.getDistance()) {
@@ -144,10 +143,12 @@ public class ShortestPathDjiktra {
                             .equals(shortestPathForNodeE));
                     break;
                 case "F":
-                    if(node.getShortestPath()
-                            .equals(shortestPathForNodeF)){
-                        System.out.println("true");;
-                    };
+                    if (node.getShortestPath()
+                            .equals(shortestPathForNodeF)) {
+                        System.out.println("true");
+                        ;
+                    }
+                    ;
                     break;
             }
         }

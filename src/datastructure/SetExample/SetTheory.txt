@@ -28,7 +28,9 @@ if we need synchronization
    but in HashSet we are passing only one value.
 
   Then how is it storing in HashMap?
-  Actually the value we insert in HashSet acts as key to the map Object and for its value java uses a constant variable. So in key-value pair all the keys will have same value.
+  Actually the value we insert in HashSet acts as key to the map Object
+   and for its value java uses a constant variable.
+   So in key-value pair all the keys will have same value.
 
 
 

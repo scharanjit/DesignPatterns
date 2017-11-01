@@ -70,7 +70,7 @@ public class ProducerConsumer {
     }
 
     // This class has a list, producer (adds items to list
-    // and consumber (removes items).
+    // and consumer (removes items).
     public static class PC {
         // Create a list shared by producer and consumer
         // Size of list is 2.
@@ -113,7 +113,7 @@ public class ProducerConsumer {
                     while (list.size() == 0)
                         wait();
 
-                    //to retrive the ifrst job in the list
+                    //to retrieve the first job in the list
                     int val = list.removeFirst();
 
                     System.out.println("Consumer consumed-"

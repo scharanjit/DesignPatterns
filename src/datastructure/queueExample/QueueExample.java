@@ -1,6 +1,6 @@
 package datastructure.queueExample;
 
-// Java orogram to demonstrate working of Queue
+// Java program to demonstrate working of Queue
 // interface in Java
 
 import java.util.LinkedList;

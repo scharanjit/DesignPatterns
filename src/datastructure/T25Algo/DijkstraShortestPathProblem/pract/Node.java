@@ -8,7 +8,7 @@ public class Node {
 
     String name;
 
-    public Node(String name){
+    public Node(String name) {
         this.name = name;
     }
 
@@ -20,8 +20,8 @@ public class Node {
     private int distance = Integer.MAX_VALUE;
 
 
-    public void addDestination(Node destination, int distance ){
-        adjacencyNode.put(destination,distance);
+    public void addDestination(Node destination, int distance) {
+        adjacencyNode.put(destination, distance);
     }
 
     public String getName() {

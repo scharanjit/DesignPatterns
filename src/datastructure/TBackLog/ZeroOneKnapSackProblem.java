@@ -5,21 +5,17 @@ package datastructure.TBackLog;
  * Given a bag which can only take certain weight W. Given list of items
  * with their weights and price. How do you fill this bag to maximize value of
  * items in the bag.
- *
+ * <p>
  * Total Weight = 7
- *
- *
+ * <p>
+ * <p>
  * Items
- *
+ * <p>
  * wt  |   val
  * 1        1
  * 3        4
  * 4        5
  * 7        7
- *
- *
- *
- *
  */
 public class ZeroOneKnapSackProblem {
 
@@ -30,6 +26,7 @@ public class ZeroOneKnapSackProblem {
         int W = 10;
         System.out.println(knapsack(val, wt, W));
     }
+
     public static int knapsack(int val[], int wt[], int W) {
         int N = wt.length; // Get the total number of items.
         // Could be wt.length or val.length. Doesn't matter
@@ -43,20 +40,19 @@ public class ZeroOneKnapSackProblem {
         for (int row = 0; row <= N; row++) {
             V[row][0] = 0;
         }
-        for (int item=1;item<=N;item++){
+        for (int item = 1; item <= N; item++) {
             //Let's fill the values row by row
-            for (int weight=1;weight<=W;weight++){
+            for (int weight = 1; weight <= W; weight++) {
                 //Is the current items weight less than or equal to running weight
-                if (wt[item-1]<=weight){
+                if (wt[item - 1] <= weight) {
                     //Given a weight, check if the value of the current
                     // item + value of the item that we could afford with the
                     // remaining weight
                     //is greater than the value without the current item itself
-                    V[item][weight]=Math.max (val[item-1]+V[item-1][weight-wt[item-1]], V[item-1][weight]);
-                }
-                else {
+                    V[item][weight] = Math.max(val[item - 1] + V[item - 1][weight - wt[item - 1]], V[item - 1][weight]);
+                } else {
                     //If the current item's weight is more than the running weight, just carry forward the value without the current item
-                    V[item][weight]=V[item-1][weight];
+                    V[item][weight] = V[item - 1][weight];
                 }
             }
         }

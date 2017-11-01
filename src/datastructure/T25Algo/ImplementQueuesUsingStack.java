@@ -56,7 +56,7 @@ public class ImplementQueuesUsingStack {
         return x;
     }
 
-    /* Driver function to test anove functions */
+    /* Driver function to test above functions */
     public static void main(String args[]) {
         /* Create a queue with items 1 2 3*/
         Queue q = new Queue();
