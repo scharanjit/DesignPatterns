@@ -7,7 +7,7 @@ package design.patterns.abstractfactory;
 //        Factory interface -- e.g., IFruitFactory. Each of those knows
 //        how to create different kinds of fruit.
 
-//there are two level of interfact in abstract factory
+//there are two level of interface in abstract factory
 //der is single level of interface in factory method
 
 public class AbstractFactoryTest {

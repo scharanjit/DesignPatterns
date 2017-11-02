@@ -34,7 +34,8 @@ public class BookMyShow {
 
  1. How many number of movies can be there?
 
- 2. Do we have to design the application for a particular city/ state/ city or worldwide? (Lets say for a country.)
+ 2. Do we have to design the application for a particular city/ state/ city
+ or worldwide? (Lets say for a country.)
 
  3. What amount of rate can a single server handle? (For simplicity,
  lets assume 1000/second).
@@ -168,7 +169,6 @@ public class BookMyShow {
  3. Print printDetails (BookMyShow registration_no);
 
  This API is useful for cinema guys to print the ticket.
-
 
 
 

@@ -1,0 +1,13 @@
+ATM class
+
+getBalanceInfo()
+getReceiptInfo()
+deposit()
+withdraw()
+verifyPin()
+
+ATM works on Chain of Responsibilty money giving process !!
+
+In other words, we can say that normally each receiver contains reference of
+another receiver. If one object cannot handle the request then it passes the
+same to the next receiver and so on.
