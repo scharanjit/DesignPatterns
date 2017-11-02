@@ -1,4 +1,4 @@
-package datastructure.T25Algo;
+package datastructure.arrays;
 
 public class ArrayNonDuplicate {
     static final int INT_SIZE = 32;
