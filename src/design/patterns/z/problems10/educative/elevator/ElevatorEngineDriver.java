@@ -1,4 +1,4 @@
-package design.patterns.z.problems10.educative;
+package design.patterns.z.problems10.educative.elevator;
 
 public class ElevatorEngineDriver {
     public static void main(String[] args) {

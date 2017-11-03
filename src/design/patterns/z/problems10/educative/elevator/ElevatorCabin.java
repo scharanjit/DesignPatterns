@@ -1,6 +1,4 @@
-package design.patterns.z.problems10.educative;
-
-import design.patterns.z.problems10.educative.UpDownEnum;
+package design.patterns.z.problems10.educative.elevator;
 
 import java.util.TreeSet;
 

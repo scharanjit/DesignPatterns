@@ -1,0 +1,35 @@
+Microservices based architecture and individual cache for each node
+
+Is it considered bad practice to use separated, local cache for each node
+in distributed microservice application? I've heard that in monolithic application
+ it's OK to use local EHCache as 2nd level cache provider for Hibernate,
+
+  but in distributed environment it's common practice to use distributed caches,
+   such as Memcached, Redis or Hazelcast. What are the consequences of using
+   separated cache for each node?
+
+
+Solution:-
+The main problem with local cache in app-server is that it makes cache
+ invalidation much more hard that it was before.
+
+Each time a resource change, it has to be invalidated (and updated) on all
+the local caches. This would require a system that knows about all the cache
+servers running at any point of time. This system would have to be informed
+about all updates so that it can co-ordinate the data invalidation on all servers.
+It will also have to take care of retries, handling failed servers, etc.
+
+If your application server has it's own local cache, you will have to solve
+these problems yourselves using a separate system or in the application code.
+A distributed caching system, would have solved those problems for you.
+You can make an update call and on success have a guarantee of data consistency
+(or eventual consistency).
+
+It is separation of concerns. With a separate cache cache cluster, the caching
+logic and the associated problems are handled at one place. The same cluster can
+be reused for multiple applications easily, rather than redoing the same for each
+ application you develop.
+
+Another minor disadvantage is that you would have to warm up the cache each time
+ you spawn a new server, if you don't want a performance degradation. This would
+ lead to longer time to spawn servers.

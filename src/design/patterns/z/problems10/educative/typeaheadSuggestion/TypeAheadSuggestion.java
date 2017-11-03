@@ -1,4 +1,4 @@
-package design.patterns.z.problems10.educative;
+package design.patterns.z.problems10.educative.typeaheadSuggestion;
 
 
 //TypeAheadSuggestion :- For TypeAheadSuggestion , we can use Trie

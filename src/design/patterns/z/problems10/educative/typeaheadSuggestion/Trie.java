@@ -1,4 +1,4 @@
-package design.patterns.z.problems10.educative;
+package design.patterns.z.problems10.educative.typeaheadSuggestion;
 
 //refer TypeAheadSuggestion For theory too
 
@@ -91,7 +91,7 @@ public class Trie {
         boolean shouldDeleteCurrentNode = delete(node, word, index + 1);
 
         //if true is returned then delete the mapping of character and
-        // trienode reference from map.
+        // trie node reference from map.
 
         if (shouldDeleteCurrentNode) {
 
@@ -119,12 +119,12 @@ public class Trie {
         System.out.println("------------deleting------lmn-----");
         System.out.println("Search lmn :" + trie.search("lmn"));
         trie.delete("lmn");
-        System.out.println("Search lmn :" + trie.search("lmn"));
+        System.out.println("Search lmn after deleting :" + trie.search("lmn"));
 
         System.out.println("------------deleting------abc-----");
         System.out.println("Search abc :" + trie.search("abc"));
-        trie.delete("lmn");
-        System.out.println("Search abc :" + trie.search("abc"));
+        trie.delete("abc");
+        System.out.println("Search abc after deleting :" + trie.search("abc"));
 
     }
 }
