@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6624ba4d-8b1c-4f27-9c77-1cf531c42a63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestConsecutiveSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practise/makes/a/man/perfect/ThreadSafeJavaClass/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practise/makes/a/man/perfect/cachingINMicroservices/theory.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/ElevatorCabin.java" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorCabin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/ElevatorEngine.java" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorEngine.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/ElevatorEngineDriver.java" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorEngineDriver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/Trie.java" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/Trie.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/TypeAheadSuggestion.java" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/TypeAheadSuggestion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/UpDownEnum.java" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/UpDownEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevatorDesign.txt" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/elevatorDesign.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/trie.png" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/trie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/palindrome/LongestPalinSubstring.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/GuestManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/Manager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/TableManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/intrface/GuestManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/intrface/TableManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Guest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Reservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Table.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practise/makes/a/man/perfect/equalsHashCode/EqualHashCode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,107 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ElevatorEngineDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorEngineDriver.java">
+      <file leaf-file-name="EqualHashCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/equalsHashCode/EqualHashCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpDownEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/UpDownEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elevatorDesign.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/elevatorDesign.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElevatorCabin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorCabin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="e#347#348#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/ThreadSafeJavaClass/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImmutabilityofaclasswithaMutableReferrence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/immutabilty/ImmutabilityofaclasswithaMutableReferrence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theory.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/cachingINMicroservices/theory.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayLongestConsecutiveSubsequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestConsecutiveSubsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-              <folding>
-                <element signature="e#1203#1212#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayLongestIncreasingSubsequence.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElevatorEngine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="406">
+              <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -222,14 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/datastructure/Multithreading/PC/PC1.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/Multithreading/PC/Produce.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/queueExample/QueueExample.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/searching/BinarySearching.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/searching/LinearSearching.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/SetExample/SetTheory.txt" />
-        <option value="$PROJECT_DIR$/src/datastructure/sorting/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/xxSolution/DS.java" />
         <option value="$PROJECT_DIR$/src/datastructure/xxSolution/Prsav.java" />
         <option value="$PROJECT_DIR$/src/datastructure/T25Algo/ArrayNonDuplicate.java" />
         <option value="$PROJECT_DIR$/src/datastructure/T25Algo/ArrayPractise.java" />
@@ -273,6 +167,14 @@
         <option value="$PROJECT_DIR$/src/practise/makes/a/man/perfect/cachingINMicroservices/theory.txt" />
         <option value="$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestConsecutiveSubsequence.java" />
         <option value="$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/rrs/RestaurantReservationSystem/RRS.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/rrs/com/rrs/service/impl/TableManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/rrs/com/rrs/service/intrface/TableManager.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/rrs/com/rrs/service/pojo/Guest.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/rrs/RRS.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RRS.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/palindrome/LongestPalinSubstring.java" />
+        <option value="$PROJECT_DIR$/src/practise/makes/a/man/perfect/equalsHashCode/EqualHashCode.java" />
       </list>
     </option>
   </component>
@@ -313,10 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,38 +231,16 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="perfect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="perfect" type="462c0819:PsiDirectoryNode" />
-              <item name="immutabilty" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -416,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayLongestConsecutiveSubsequence">
+  <component name="RunManager" selected="Application.LongestPalinSubstring">
     <configuration name="ArrayLongestConsecutiveSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,14 +312,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="ArrrayKthElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayLongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="datastructure.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.ArrrayKthElement" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.ArrayLongestIncreasingSubsequence" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -455,14 +331,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="Kthlarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestPalinSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructure.arrays.*" />
+          <option name="PATTERN" value="datastructure.palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.Kthlarget" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.palindrome.LongestPalinSubstring" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -474,14 +350,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="SingletonSerializableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RRS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="practise.makes.a.man.perfect.singletonSerialization.*" />
+          <option name="PATTERN" value="design.patterns.z.problems10.educative.RestaurantReservationSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="practise.makes.a.man.perfect.singletonSerialization.SingletonSerializableDemo" />
+      <option name="MAIN_CLASS_NAME" value="design.patterns.z.problems10.educative.RestaurantReservationSystem.RRS" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -528,19 +404,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SingletonSerializableDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArrrayKthElement" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Kthlarget" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Trie" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArrayLongestConsecutiveSubsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Trie" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayLongestConsecutiveSubsequence" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ArrayLongestIncreasingSubsequence" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RRS" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LongestPalinSubstring" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayLongestConsecutiveSubsequence" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Trie" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Kthlarget" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArrrayKthElement" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SingletonSerializableDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LongestPalinSubstring" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RRS" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayLongestIncreasingSubsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayLongestConsecutiveSubsequence" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Trie" />
       </list>
     </recent_temporary>
   </component>
@@ -631,12 +507,15 @@
       <workItem from="1509638491404" duration="3227000" />
       <workItem from="1509683646836" duration="8283000" />
       <workItem from="1509717097205" duration="28000" />
-      <workItem from="1509724414728" duration="2561000" />
+      <workItem from="1509724414728" duration="3042000" />
+      <workItem from="1509793498375" duration="2692000" />
+      <workItem from="1509855798888" duration="2850000" />
+      <workItem from="1509868045166" duration="5545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384690000" />
+    <option name="totallyTimeSpent" value="396258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="96" y="24" width="1315" height="780" extended-state="6" />
@@ -650,20 +529,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.50276244" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115085535" sideWeight="0.49723756" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23172629" sideWeight="0.49723756" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29755327" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41990668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41990668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1108,6 +987,24 @@
           <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/datastructure/treeExample/HeightOfBinaryTree.java</url>
           <line>21</line>
@@ -1133,7 +1030,7 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="91" />
+      <option name="time" value="94" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1142,116 +1039,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/eCommerceWebsite/Grails-Store/grails-app/domain/en/store/ProductPurchased.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/eCommerceWebsite/Grails-Store/grails-app/controllers/en/store/MainController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/eCommerceWebsite/Grails-Store/grails-app/controllers/en/store/ProductPurchasedController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/ATM/Theory.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/CarServiceCenter/CarServiceCenter.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/xxSolution/SingletonSerialize.java" />
-    <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/singletonSerialization/Theory.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/eCommerceWebsite/Grails-Store/grails-app/domain/en/store/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/eCommerceWebsite/Grails-Store/grails-app/controllers/en/store/ProductController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/singletonSerialization/SingletonSerializableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/singletonSerialization/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/sorting/QuickSort2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_111/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="585" column="13" lean-forward="false" selection-start-line="585" selection-start-column="13" selection-end-line="585" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/sorting/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrrayKthElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/Kthlarget.java" />
-    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayMultiplcationPrevNext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayNonDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1362,14 +1149,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/TrieTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/elevatorDesign.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorEngineDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1392,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,22 +1181,21 @@
         <state relative-caret-position="180">
           <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
-            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/ThreadSafeJavaClass/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
+        <state relative-caret-position="954">
           <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/immutabilty/ImmutabilityofaclasswithaMutableReferrence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="720">
           <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding />
         </state>
@@ -1426,29 +1203,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/cachingINMicroservices/theory.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="612">
           <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestConsecutiveSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="612">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="e#1203#1212#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="18">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/elevatorDesign.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/pojo/Reservation.java" />
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/pojo/Table.java" />
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/main/RRS.java" />
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/impl/GuestManagerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/pojo/Guest.java" />
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/intrface/GuestManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RRS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3204">
+          <caret line="193" column="9" lean-forward="false" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#7149#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/intrface/GuestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/GuestManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/intrface/TableManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/TableManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="91" column="21" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+          <folding>
+            <element signature="e#1017#1033#0" expanded="true" />
+            <element signature="e#2162#2169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/palindrome/LongestPalinSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/equalsHashCode/EqualHashCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
