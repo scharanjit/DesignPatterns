@@ -58,6 +58,9 @@ public class ImmutabilityofaclasswithaMutableReferrence {
             return nuAdd;
         }
 
+        //immutable class does not have setters
+        //just getters
+
     }
 
     public class Address{

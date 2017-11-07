@@ -6,7 +6,7 @@ deposit()
 withdraw()
 verifyPin()
 
-ATM works on Chain of Responsibilty money giving process !!
+ATM works on Chain of Responsibility money giving process !!
 
 In other words, we can say that normally each receiver contains reference of
 another receiver. If one object cannot handle the request then it passes the

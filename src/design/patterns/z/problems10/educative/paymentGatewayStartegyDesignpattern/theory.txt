@@ -9,7 +9,7 @@ Strategy Pattern is very similar to State Pattern. One of the difference
  is that Context contains state as instance variable and there can be
  multiple tasks whose implementation can be dependent on the state whereas
  in strategy pattern strategy is passed as argument to the method and context
- object doesn’t have any variable to store it.
+ object does n’t have any variable to store it.
 
 Strategy pattern is useful when we have multiple algorithms for specific
 task and we want our application to be flexible to chose any of the algorithm

@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6624ba4d-8b1c-4f27-9c77-1cf531c42a63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/palindrome/LongestPalinSubstring.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/GuestManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/Manager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/TableManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/intrface/GuestManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/intrface/TableManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Guest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Reservation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Table.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/practise/makes/a/man/perfect/equalsHashCode/EqualHashCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/LinkedList/LoopInASinglyLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/LinkedList/MergePointofTwoList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/debugging/DebuggingThreadsafetyorConcurrencyIssues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/debugging/DesktopJavaApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/debugging/SMSDebug.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/debugging/YoutubeNotplayingtheSelectedVideo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/eCommerceWebsite/Grails-Store" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/eCommerceWebsite/Grails-Store" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/ATM/Theory.txt" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/ATM/Theory.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/theory.txt" afterPath="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/theory.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/practise/makes/a/man/perfect/immutabilty/ImmutabilityofaclasswithaMutableReferrence.java" afterPath="$PROJECT_DIR$/src/practise/makes/a/man/perfect/immutabilty/ImmutabilityofaclasswithaMutableReferrence.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +39,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EqualHashCode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/equalsHashCode/EqualHashCode.java">
+      <file leaf-file-name="LoopInASinglyLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedList/LoopInASinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="83">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergePointofTwoList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedList/MergePointofTwoList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseKthElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-184">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayLongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrrayKthElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrrayKthElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="106" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayNonDuplicate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayNonDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -85,6 +138,7 @@
       <find>ArrayList&lt;In</find>
       <find>E:/singleton.ser</find>
       <find>poll</find>
+      <find>LinkedList</find>
     </findStrings>
     <replaceStrings>
       <replace>BinaryTree1</replace>
@@ -107,10 +161,12 @@
       <replace>Singelton</replace>
       <replace>Singleton</replace>
       <replace>singleton.ser</replace>
+      <replace>MergePointofTwoList</replace>
+      <replace>LoopInASinglyLinkedList</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/src/datastructure</dir>
+      <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -124,17 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/datastructure/xxSolution/Prsav.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/ArrayNonDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/ArrayPractise.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/ImplementQueuesUsingStack.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/ImplementQ.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/LinkedListDelete.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/LinkedlistMiddle.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/MaximumProductSubarrayTrio.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/T25Algo/MaxProd.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/TBackLog/StairCase.java" />
-        <option value="$PROJECT_DIR$/src/datastructure/TBackLog/LRU.java" />
         <option value="$PROJECT_DIR$/src/datastructure/TBackLog/LRUUU.java" />
         <option value="$PROJECT_DIR$/src/datastructure/TBackLog/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/abstractfactory/AbstractFactoryTest.java" />
@@ -144,10 +189,8 @@
         <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/PaypalStrategy.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/Item.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/theory.txt" />
         <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/ShoppingCartTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/ATM/Theory.txt" />
         <option value="$PROJECT_DIR$/src/datastructure/xxSolution/SingletonSerialize.java" />
         <option value="$PROJECT_DIR$/src/practise/makes/a/man/perfect/singletonSerialization/Theory.txt" />
         <option value="$PROJECT_DIR$/src/practise/makes/a/man/perfect/singletonSerialization/SingletonSerializableDemo.java" />
@@ -175,6 +218,19 @@
         <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RRS.java" />
         <option value="$PROJECT_DIR$/src/datastructure/palindrome/LongestPalinSubstring.java" />
         <option value="$PROJECT_DIR$/src/practise/makes/a/man/perfect/equalsHashCode/EqualHashCode.java" />
+        <option value="$PROJECT_DIR$/src/practise/makes/a/man/perfect/immutabilty/ImmutabilityofaclasswithaMutableReferrence.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/ATM/Theory.txt" />
+        <option value="$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/theory.txt" />
+        <option value="$PROJECT_DIR$/src/debugging/DebuggingThreadsafetyorConcurrencyIssues.java" />
+        <option value="$PROJECT_DIR$/src/debugging/SMSDebug.java" />
+        <option value="$PROJECT_DIR$/src/debugging/YoutubeNotplayingtheSelectedVideo.java" />
+        <option value="$PROJECT_DIR$/src/debugging/DesktopJavaApplication.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/LinkedList/MergePointofTwoList.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/LinkedList/MergeCheck.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/LinkedList/LoopInASinglyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/arrays/LIS.java" />
+        <option value="$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKth.java" />
       </list>
     </option>
   </component>
@@ -215,6 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,16 +288,56 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="perfect" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Multithreading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="palindrome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,26 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalinSubstring">
-    <configuration name="ArrayLongestConsecutiveSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="datastructure.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.ArrayLongestConsecutiveSubsequence" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DesignPatterns" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseKth">
     <configuration name="ArrayLongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -331,14 +409,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="LongestPalinSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayNonDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datastructure.palindrome.*" />
+          <option name="PATTERN" value="datastructure.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datastructure.palindrome.LongestPalinSubstring" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.ArrayNonDuplicate" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -350,14 +428,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="RRS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="design.patterns.z.problems10.educative.RestaurantReservationSystem.*" />
+          <option name="PATTERN" value="datastructure.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="design.patterns.z.problems10.educative.RestaurantReservationSystem.RRS" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.arrays.LIS" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -369,14 +447,33 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LoopInASinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="design.patterns.z.problems10.educative.*" />
+          <option name="PATTERN" value="datastructure.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="design.patterns.z.problems10.educative.Trie" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.LinkedList.LoopInASinglyLinkedList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DesignPatterns" />
+      <envs />
+    </configuration>
+    <configuration name="ReverseKth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="datastructure.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="datastructure.LinkedList.ReverseKth" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -404,19 +501,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Trie" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArrayLongestConsecutiveSubsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LoopInASinglyLinkedList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LIS" />
       <item index="2" class="java.lang.String" itemvalue="Application.ArrayLongestIncreasingSubsequence" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RRS" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LongestPalinSubstring" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArrayNonDuplicate" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReverseKth" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LongestPalinSubstring" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RRS" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayLongestIncreasingSubsequence" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArrayLongestConsecutiveSubsequence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Trie" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReverseKth" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArrayNonDuplicate" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LIS" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayLongestIncreasingSubsequence" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LoopInASinglyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -511,33 +608,36 @@
       <workItem from="1509793498375" duration="2692000" />
       <workItem from="1509855798888" duration="2850000" />
       <workItem from="1509868045166" duration="5545000" />
+      <workItem from="1509944537924" duration="4754000" />
+      <workItem from="1509949608336" duration="12349000" />
+      <workItem from="1509977424963" duration="2243000" />
+      <workItem from="1510024729521" duration="4560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396258000" />
+    <option name="totallyTimeSpent" value="420164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="96" y="24" width="1315" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.50276244" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23172629" sideWeight="0.49723756" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29755327" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31254932" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -692,18 +792,6 @@
           <line>23</line>
           <properties />
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorCabin.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorCabin.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorCabin.java</url>
@@ -1005,6 +1093,60 @@
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/MergePointofTwoList.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/MergePointofTwoList.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/MergePointofTwoList.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/LinkedList/MergePointofTwoList.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/datastructure/treeExample/HeightOfBinaryTree.java</url>
           <line>21</line>
@@ -1030,7 +1172,7 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="94" />
+      <option name="time" value="106" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1039,121 +1181,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayNonDuplicate.java">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/CarServiceCenter/CarServiceCenter.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/elevatorDesign.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/ArrayList-vs-Vector-Java.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/ArrayListVsLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/ComparablevsComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/Differences-between-TreeMap-HashMap-and-LinkedHashMap-in-Java.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/VectorVsArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/WebCrawler-Architecture.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/WebCrawler-BFS-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/WebCrawler-BFS-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/WebCrawler-BFS-3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/WebCrawler-DFS-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/WebCrawler-DFS-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/WebCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/UberBackEndDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/UberMicroService.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/UberMonolithic.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/TrieTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/TypeAheadSuggestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/TrieTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorEngineDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1165,92 +1201,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevatorDesign/ElevatorEngineDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevatorDesign/ElevatorEngine.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/UpDownEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevatorDesign/UpDownEnum.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevatorDesign/ElevatorCabin.java" />
     <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/ElevatorCabin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
-            <element signature="e#347#348#0" expanded="false" />
+            <element signature="e#347#348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/ThreadSafeJavaClass/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/theory.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/immutabilty/ImmutabilityofaclasswithaMutableReferrence.java">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/ShoppingCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/cachingINMicroservices/theory.txt">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/Strategy-Pattern.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestConsecutiveSubsequence.java">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="147">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/PaymentStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/elevator/elevatorDesign.txt">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/PaypalStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/pojo/Reservation.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/pojo/Table.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/main/RRS.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/impl/GuestManagerImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/pojo/Guest.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RestaurantReservationSystem/src/com/rrs/service/intrface/GuestManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Table.java">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/paymentGatewayStartegyDesignpattern/CreditCardStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Reservation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="85">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/pojo/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1258,18 +1283,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/RRS.java">
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/intrface/TableManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3204">
-          <caret line="193" column="9" lean-forward="false" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#7149#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1277,63 +1297,275 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/GuestManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="109">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/intrface/TableManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/TableManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
+        <state relative-caret-position="-346">
           <caret line="91" column="21" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/TypeAheadSuggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/trie.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/APIRateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/BookMyShow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="175" column="3" lean-forward="true" selection-start-line="175" selection-start-column="3" selection-end-line="175" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/Callcenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/DataStructureCricketScores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/DesignParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="113" column="7" lean-forward="false" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debugging/DebuggingThreadsafetyorConcurrencyIssues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debugging/SMSDebug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debugging/YoutubeNotplayingtheSelectedVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/debugging/DesktopJavaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/GoogleSearchAlgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/typeaheadSuggestion/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/z/problems10/educative/RestaurantReservationSystem/impl/Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/datastructure/Multithreading/ProducerConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-          <folding>
-            <element signature="e#1017#1033#0" expanded="true" />
-            <element signature="e#2162#2169#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1286">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/palindrome/LongestPalinSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="-176">
           <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practise/makes/a/man/perfect/equalsHashCode/EqualHashCode.java">
+    <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/ImplementQueuesUsingStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/T25Algo/LeftViewBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/TBackLog/LRUUU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/TBackLog/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1187">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/treeExample/SizeOfTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/collectionIviews/ArrayListVsLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/Iterator/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestConsecutiveSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="67" column="45" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/LIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrrayKthElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayNonDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/arrays/ArrayLongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedList/MergeCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedList/MergePointofTwoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedList/LoopInASinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKthElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/LinkedList/ReverseKth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="(19||20)\d\d([- /.])(0[1-9]||1[012])\2(0[1-9]||[12][0-9]||3[01])" />
+        <entry key="text" value="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" />
+      </map>
+    </option>
   </component>
 </project>
