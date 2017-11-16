@@ -1,0 +1,28 @@
+What happens when you type a link in any browser and click GO button?
+ List all steps.
+
+What should be the issue if the browser app build that i have today is
+1 second 250 milliseconds slower than yesterday's build?
+
+ASSUME: WiFi is perfect, loading 10 webpages from a controlled server
+ - hence there are no infrastructure or server side delays causing this.
+
+What would you think might be the issue? How would you debug?
+
+1)Browser contacts the DNS for the ipAddress
+2)DNS returns the IP address
+3)Browser establishes a TCP/IP connection with the IP address
+4) Browser starts rendering the code
+
+
+
+Programmatically these are the approaches that I would take.
+1. Test it on multiple browsers and check if the behavior(delay) is same or
+occurring only particular browser.
+2. use the time collected from past few weeks and observe for any patterns.
+3. Write some complete end to end integration/regression test cases.
+4. Rely on some unit tests that are written for the code developed
+from yesterday to today.
+5. see if there are any data structures in the back end are changed.
+6. see if the datasource/database queries are changed.
+7.) Clear Cache

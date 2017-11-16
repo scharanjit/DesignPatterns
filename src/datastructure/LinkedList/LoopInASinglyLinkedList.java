@@ -1,6 +1,6 @@
 package datastructure.LinkedList;
 
- // Java program to detect and remove loop in linked list
+// Java program to detect and remove loop in linked list
 
 public class LoopInASinglyLinkedList {
 

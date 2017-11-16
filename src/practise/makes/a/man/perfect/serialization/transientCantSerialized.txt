@@ -1,0 +1,7 @@
+In multithreaded environment to maintain the unique value of a
+particular field, we are using volatile.
+
+Any reason why it can't be serialised.
+
+If a particular member(field) declared as transient it will not be included
+ while doing the serialization.

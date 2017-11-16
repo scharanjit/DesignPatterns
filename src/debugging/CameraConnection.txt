@@ -1,0 +1,8 @@
+I have clicked some photos in a Camera. I am trying to transfer photos
+to laptop using USB cable but the Camera is not getting connected.
+ Give debugging steps.
+
+ 1. Check if the driver for your camera device is installed properly on machine.
+ 2. Check system error messages if any logged after connecting the device.
+ 3. Check cable, ports or hardware related issues if any.
+

@@ -8,21 +8,21 @@ import java.util.Random;
 public class Prsav {
 
     ArrayList<Integer> arrayList;
-    HashMap<Integer,Integer> hashMap;
+    HashMap<Integer, Integer> hashMap;
 
-    public Prsav(){
+    public Prsav() {
         arrayList = new ArrayList();
         hashMap = new HashMap();
     }
 
-    public void add(int x){
-        if(hashMap.get(x) == null)
+    public void add(int x) {
+        if (hashMap.get(x) == null)
             return;
 
         arrayList.add(x);
         int size = arrayList.size();
 
-        hashMap.put(x,size);
+        hashMap.put(x, size);
 
     }
 
@@ -45,21 +45,18 @@ public class Prsav {
     }
 
     private void remove(int i) {
-       Integer index = hashMap.get(i);
-        if(index==null)
+        Integer index = hashMap.get(i);
+        if (index == null)
             return;
         hashMap.remove(i);
 
-        int size =arrayList.size();
+        int size = arrayList.size();
 
-        Integer last =arrayList.get(size-1);
+        Integer last = arrayList.get(size - 1);
 
-        Collections.swap(arrayList,index,size-1);
+        Collections.swap(arrayList, index, size - 1);
 
-        hashMap.put(last,index);
-
-
-
+        hashMap.put(last, index);
 
 
     }
@@ -67,16 +64,16 @@ public class Prsav {
     private int getRandom() {
 
         Random random = new Random();
-        int index =  random.nextInt(arrayList.size());
-        return (int)arrayList.get(index);
+        int index = random.nextInt(arrayList.size());
+        return (int) arrayList.get(index);
     }
 
     private boolean search(int i) {
 
-     if(hashMap.get(i) != null)
-         return true;
+        if (hashMap.get(i) != null)
+            return true;
 
-     return false;
+        return false;
 
 
     }

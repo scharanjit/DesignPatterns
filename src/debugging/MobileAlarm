@@ -1,0 +1,11 @@
+There is alarm in a mobile and mobile is switched off when alarm is set.
+ how to debug this situation? write all the scenarios u approach to debug
+ this issue??
+
+ This can be solved in logical manner , there are 3 parameters we can consider
+ 1. Mobile Alarm
+ 2. Mobile On / Off State
+ 3. Mobile Current Time
+
+ When all 3 parameters satisfy the Alarm will ring in all other cases it should fail.
+

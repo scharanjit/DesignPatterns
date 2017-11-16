@@ -7,7 +7,7 @@ package debugging;
 
 
  Solution
- 1. Please double-check the phone number entered for any miskeyed numbers.
+ 1. Please double-check the phone number entered for any mis-keyed numbers.
 
  2. Is your phone within service range?
 

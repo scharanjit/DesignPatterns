@@ -1,0 +1,12 @@
+What happens when you get a segmentation fault? how do you get it
+ and how is it implemented?
+
+Memory segmentation is the division of a computer's primary memory into
+ segments or sections. In a computer system using segmentation, a reference
+  to a memory location includes a value that identifies a segment and an
+  offset (memory location) within that segment.
+
+Most like the segmentation fault is caused by memory illegal access.
+ So probably a good place to check is the place where you dynamically
+  allocated/used the memory. Also if it is possible, try to use assert
+  in the places where it might go wrong.

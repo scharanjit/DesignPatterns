@@ -1,0 +1,14 @@
+1) Check if traffic has increased. Is it normal/expected
+increase (say Diwali festival season) or unexpected.
+If it it is unexpected then analyze further if there is any
+suspicious from particular geographical area, phishing attack etc.
+
+2) Check Server performance; any application server crashes ;
+memory issues observed
+
+3) Check Database performance; DB server outage; memory issue;
+network connectivity issue.
+If particular operation is taking long time to process then need to
+fine tune queries.
+
+4) Overall network performance. Any outage; increased latency etc.

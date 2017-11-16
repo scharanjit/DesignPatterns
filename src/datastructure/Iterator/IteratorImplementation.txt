@@ -2,7 +2,8 @@ Where the Iterator interface implemented
 
 When you look at the source code of JDK,
  you will find that Iterator is an interface and has only there methods viz.
- hasNext, next and remove declared in it. So where is the implementation of Iterator in Java.
+ hasNext, next and remove declared in it. So where is the implementation
+ of Iterator in Java.
 
 Well if we go and look the AbstractList class in JDK,
 there you will find the implementation of Iterator as an inner class named Itr.

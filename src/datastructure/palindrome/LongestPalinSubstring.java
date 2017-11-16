@@ -2,8 +2,7 @@ package datastructure.palindrome;
 
 // Java implementation of O(n^2) time and O(1) space method
 // to find the longest palindromic substring
-public class LongestPalinSubstring
-{
+public class LongestPalinSubstring {
     // A utility function to print a substring str[low..high]
     static void printSubStr(String str, int low, int high) {
         System.out.println(str.substring(low, high + 1));
@@ -22,8 +21,7 @@ public class LongestPalinSubstring
 
         // One by one consider every character as center
         // point of even and length palindromes
-        for (int i = 1; i < len; ++i)
-        {
+        for (int i = 1; i < len; ++i) {
             // Find the longest even length palindrome with
             // center points as i-1 and i.
             low = i - 1;

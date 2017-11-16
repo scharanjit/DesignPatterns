@@ -1,0 +1,11 @@
+1. Try multiple times to figure out if this is reoccuring
+2. If no, we are good. If yes, then
+a. Look for the memory space
+b. Look for dependent dll
+c. Look for version (32 bit installer getting installed on 64 bit OS)
+d. Look for a installer meant for another Os being installed on different one
+e. Look for low disk space
+f. Look for low cache, or RAM
+g. Look for logged in user not having installation rights
+h. Look for installing from an remote location where the user does not have
+executable rights

@@ -1,34 +1,33 @@
 package datastructure.arrays;
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
  * 1.) Array.sort() and find 4th element
  * Time is O(nlog(n)).
- *
+ * <p>
  * 2.)  Quick Sort
  * Average case time is O(n), worst case time is O(n^2).
- *
- *3.) Heap (use Priority Queue) Time complexity is O(nlog(k)).
+ * <p>
+ * 3.) Heap (use Priority Queue) Time complexity is O(nlog(k)).
  * Space complexity is O(k)for storing the top k numbers.
  */
 public class ArrrayKthElement {
 
     /**
-     *  1.) Array.sort() and find 4th element
+     * 1.) Array.sort() and find 4th element
      * Time is O(nlog(n)).
      */
     public int findKthLargestArraySorting(int[] nums, int k) {
         Arrays.sort(nums);
-        return nums[nums.length-k];
+        return nums[nums.length - k];
     }
 
 
     /**
-     *  *
+     * *
      * 2.)  Quick Sort
      * Average case time is O(n), worst case time is O(n^2
      */
@@ -37,7 +36,7 @@ public class ArrrayKthElement {
             return 0;
         }
 
-        return getKth(nums.length - k +1, nums, 0, nums.length - 1);
+        return getKth(nums.length - k + 1, nums, 0, nums.length - 1);
     }
 
     public int getKth(int k, int[] nums, int start, int end) {
@@ -83,16 +82,15 @@ public class ArrrayKthElement {
 
 
     /**
-     *
-    Heap (use Priority Queue) Time complexity is O(nlog(k)).
+     * Heap (use Priority Queue) Time complexity is O(nlog(k)).
      * Space complexity is O(k)for storing the top k numbers.n
      */
 
     public int findKthLargestHeap(int[] nums, int k) {
         PriorityQueue<Integer> q = new PriorityQueue<>(k); //initial capacity of PQ
-        for(int i: nums){
+        for (int i : nums) {
             q.offer(i);    //add element into queue
-            if(q.size()>k){
+            if (q.size() > k) {
                 q.poll(); //remove the head object
             }
         }
@@ -102,11 +100,11 @@ public class ArrrayKthElement {
 
     public static void main(String[] args) {
         ArrrayKthElement arrrayKthElement = new ArrrayKthElement();
-        int arr[] = {1,2,4,2,5,1,6,1};
+        int arr[] = {1, 2, 4, 2, 5, 1, 6, 1};
 
 
-        System.out.println(arrrayKthElement.findKthLargestArraySorting(arr,3));
-        System.out.println(arrrayKthElement.findKthLargestHeap(arr,3));
-        System.out.println(arrrayKthElement.findKthLargestQuickSort(arr,3));
+        System.out.println(arrrayKthElement.findKthLargestArraySorting(arr, 3));
+        System.out.println(arrrayKthElement.findKthLargestHeap(arr, 3));
+        System.out.println(arrrayKthElement.findKthLargestQuickSort(arr, 3));
     }
 }
