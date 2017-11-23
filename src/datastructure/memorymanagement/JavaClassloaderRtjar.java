@@ -6,9 +6,9 @@ public class JavaClassloaderRtjar {
 
         System.out.println("class loader for HashMap: "
                 + java.util.HashMap.class.getClassLoader());
-        System.out.println("class loader for DNSNameService: "
-                + sun.net.spi.nameservice.dns.DNSNameService.class
-                .getClassLoader());
+//        System.out.println("class loader for DNSNameService: "
+//                + sun.net.spi.nameservice.dns.DNSNameService.class
+//                .getClassLoader());
         System.out.println("class loader for this class: "
                 + JavaClassloaderRtjar.class.getClassLoader());
 
