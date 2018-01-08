@@ -1,0 +1,30 @@
+Engine Ex
+
+It serves 3 main features
+
+1.)Load balancing (front end http server ==> balance incoming request)
+1000 request ==>EngineX ==>300 1 server
+                        ==> 300 2nd Server
+                        ==> 400 3rd Server
+
+                        Load on single server be distributed
+
+2.)Caching
+ In webapps , we have CSS,JS & Images (which are changed very often)
+ we can cache them into ingnx caching to respond back to static resouces
+ Page will load faster
+
+3.)Reverse Proxy
+Suppose u hav multiple apps
+U can run only app on port 80
+u can't run other app on port 80
+
+One way is assign different ports to each app
+app1.com:80
+app2.com:81
+app3.com:82
+
+Or we can put ingnx==
+Engine X transfer the request to that particular port.
+
+Client need not to worry about port

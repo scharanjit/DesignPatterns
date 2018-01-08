@@ -13,8 +13,12 @@ Consider I have a Singleton class defined as follows.
  return MySingleton.myInstance;
  }
  }
- The above definition according to me satisfies the requirements of a Singleton.The only additional behaviour added is that the class implements serializable interface.
+ The above definition according to me satisfies the requirements of a Singleton.
+ The only additional behaviour added is that the class implements
+ serializable interface.
 
- If another class X get the instance of the single and writes it to a file and at a later point deserializes it to obtain another instance we would have two instances which is against the Singleton principle.
+ If another class X get the instance of the single and writes it to a
+ file and at a later point deserializes it to obtain another instance
+  we would have two instances which is against the Singleton principle.
 
  How can I avoid this or am I wrong in above definition itself.
