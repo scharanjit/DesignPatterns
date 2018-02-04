@@ -1,0 +1,52 @@
+1.) Request
+Tabular data stream
+
+==> batch request
+==> remote procedure call request
+==> bulk load request
+
+2.) Task
+
+When a new request reaches the server and the task is created
+ to handle that request, in PENDING state. At this stage the
+  server has no idea yet what the request
+actually is. The task has to start executing first, and for this
+the engine must assign a worker to it.
+
+
+3.) Workers (Or Thread)
+(=> request => task => worker)
+
+4.) Parsing & Compilation
+The entire request
+(batch) is parsed and compiled. If an error occurs at this stage,
+ the requests terminates with a compilation error (the request is then complete, the task is done and the
+worker is free to pick up another pending task).
+
+
+5.) Optimization
+optimization means choosing
+the best the data access path from all the possible alternatives
+Consider that if you have a simple query with join between two tables
+ and each table has an additional
+index there are already 4 possible ways to access the data and the
+number of possibilities grows exponentially as the query complexity
+increases and more alternative
+access paths are available (basically, more indexes). Add to this that the
+JOIN can be done using various strategies (nested loop, hash, merge) and you’ll
+see why
+optimization is such an important concept in SQL.
+
+
+6.)Execution
+Once a query plan is chosen by the Optimizer the request can start executing.
+ The query plan gets translated into an actual execution tree. Each node
+ in this tree is an
+operator. All operators implement an abstract interface with 3 methods:
+open(), next(), close().
+
+
+
+7.) Result
+
+

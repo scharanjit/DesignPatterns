@@ -7,8 +7,8 @@ That also means that all local primitive variables are thread safe.
 
 Local Object References
 It's stored in shared heap not on thread stack
-It is Thread Safe if not passing as paramter to other method
-If passed as paramter, then other method can access it
+It is Thread Safe if not passing as parameter to other method
+If passed as parameter, then other method can access it
 
 
 Object Member Variables

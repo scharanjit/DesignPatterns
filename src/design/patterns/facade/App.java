@@ -1,6 +1,7 @@
 package design.patterns.facade;
 //facade :- hide concrete implementation of class
-// sorting manager hides the internal implementation of bubble sort, heapsort, merge sort
+// sorting manager hides the internal implementation of
+// bubble sort, heapsort, merge sort
 
 
 public class App {

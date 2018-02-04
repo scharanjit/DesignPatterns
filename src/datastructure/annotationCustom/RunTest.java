@@ -1,4 +1,4 @@
-package datastructure.annotation;
+package datastructure.annotationCustom;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;

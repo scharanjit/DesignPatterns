@@ -1,4 +1,4 @@
-package datastructure.MergePointofTwoList;
+package datastructure.LinkedList;
 
 // Java program to get intersection point of two linked list
 

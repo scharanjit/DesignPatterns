@@ -4,7 +4,7 @@ that describe its closeness and accessibility to the microprocessor:
 Level 1 (L1) cache is extremely fast but relatively small, and is usually embedded
 in the processor chip (CPU).
 
-Level 2 (L2) cache is often more capacious than L1; it may be located on the CPU or on
+Level 2 (L2) cache is often more capacious than L1; it may be located on the CPUor on
  a separate chip or coprocessor with a high-speed alternative system bus interconnecting
   the cache to the CPU, so as not to be slowed by traffic on the main system bus.
 

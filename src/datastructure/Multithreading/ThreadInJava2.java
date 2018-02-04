@@ -1,9 +1,10 @@
-package datastructure.T25Algo;
+package datastructure.Multithreading;
 
-public class ThreadInJava extends Thread {
+public class ThreadInJava2 implements Runnable {
 
-    private static volatile boolean bool = true;
+    private static boolean bool = true;
 
+    @Override
     public void run() {
         while (bool) {
             System.out.println("Ghantaa !!");
@@ -15,10 +16,11 @@ public class ThreadInJava extends Thread {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        ThreadInJava t = new ThreadInJava();
+        ThreadInJava2 th = new ThreadInJava2();
+        Thread t = new Thread(th);
         t.start();
         Thread.sleep(1000);
-        t.stopF();
+        th.stopF();
 
     }
 }
