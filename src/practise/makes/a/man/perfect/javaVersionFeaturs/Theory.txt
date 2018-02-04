@@ -1,0 +1,84 @@
+Java 8 (a.k.a 1.8)
+JSR 337, what's new
+
+Language changes:
+
+lambda expressions (JSR 335, includes method handles)
+continuation of Project Coin (small language improvements)
+annotations on Java types
+Library changes:
+
+Improved Date and Time API
+Java 7 (a.k.a 1.7)
+JSR 336, features and enhancements
+
+Language changes:
+
+Project Coin (small changes)
+switch on Strings
+try-with-resources
+diamond operator
+Library changes:
+
+new abstracted file-system API (NIO.2) (with support for virtual filesystems)
+improved concurrency libraries
+elliptic curve encryption
+more incremental upgrades
+Platform changes:
+
+support for dynamic languages
+Java 6 (a.k.a 1.6)
+JSR 270. features and enhancements
+
+Mostly incremental improvements to existing libraries, no new language features (except for the @Override snafu).
+
+Java 5 (a.k.a 1.5)
+JSR 176, features and enhancements
+
+Language Changes:
+
+generics (that's the big one)
+annotations
+enum types
+varargs, enhanced for loops (for-each)
+Library changes:
+
+concurrency utilities in java.util.concurrent
+Java 1.4
+JSR 59
+
+Language changes:
+
+the assert keyword
+Library changes:
+
+regular expressions support
+NIO
+integrated XML handling
+Java 1.3
+Mostly minor improvements, really.
+
+Platform changes:
+
+HotSpot JVM: improvement over the original JIT
+Java 1.2
+Language changes:
+
+the strictfp keyword
+Library changes:
+
+a unified collections system
+Swing as a new UI-System on top of AWT
+Platform changes
+
+a real JIT, greatly improving speed
+Java 1.1
+Language changes:
+
+inner classes
+Library changes:
+
+AWT event changes
+JDBC, RMI
+reflection
+Java 1.0

@@ -1,0 +1,23 @@
+1.) Check it's a circular linked list..decrease complexity..rabbit hair problem
+slow and fast pointer
+
+2.) Interview panel ...3 candidates...
+
+3.) intersect point of linked list
+
+4.) Why Map does not implement Collection Interface
+
+5.) http://javahungry.blogspot.com/2015/09/difference-between-weakhashmap-and-hashmap-with-exmaple.html
+
+6.) http://javarevisited.blogspot.in/2013/01/difference-between-identityhashmap-and-hashmap-java.html
+
+7.) Map<String,Map<String,String>>  ==> MultiMap<String,String> Guava Util Gogle
+
+8.) How DB works...when we fire a query
+
+9.) Clustered and non-clustered indexes (when to use what)
+
+10.) Normalization (https://www.guru99.com/database-normalization.html)
+
+
+Learn Diagram...List collections ...parent child..what implementing what..

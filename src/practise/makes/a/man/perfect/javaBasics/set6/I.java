@@ -17,7 +17,7 @@ class I{
 
 /**
  The iterator() method returns an iterator over the
- elements in the list in proper sequence, it doesn’t return
+ elements in the list in proper sequence, it does n’t return
  a List or a ListIterator object. A ListIterator can be obtained by
  invoking the listIterator method.
  */

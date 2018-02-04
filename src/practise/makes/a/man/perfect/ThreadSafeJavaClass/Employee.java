@@ -69,5 +69,13 @@ package practise.makes.a.man.perfect.ThreadSafeJavaClass;
  }
  */
 public class Employee {
+
+
+    //make it immutable
+    //or
+    // make local variable volatile
+//    or
+    //through synchronised block
+
 }
 //TODO https://stackoverflow.com/questions/9622061/thread-safe-class-in-java-by-means-of-synchronized-blocks

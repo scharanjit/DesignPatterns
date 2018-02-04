@@ -1,0 +1,23 @@
+Multithreading-->Mutex/Semaphore/fork and join use
+(Use Multithreading)
+1.) CSV -create docs for very n lines ..create etxt file & write it to some lcoations
+
+2.) 100 K Docs...take 100 technology words, count the words in those docs
+
+3.) Auto Suggest---ake list of words....from 2 & do auto suggest --
+multiple algorithms can be configured
+
+
+
+Automatic Integers
+Cyclic barrier
+Synchronous Queue
+Blocking Queue
+Semaphore
+Reentrant Lock
+
+
+
+4.) Implement LRU
+5.)
+

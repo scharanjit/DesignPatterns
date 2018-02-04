@@ -1,0 +1,72 @@
+Multithreading Benefits
+
+Better resource utilization.
+
+Simpler program design in some situations.
+
+More responsive programs.
+
+
+
+Multithreading Costs
+
+More complex design
+
+Context Switching Overhead
+When a CPU switches from executing one thread to executing another,
+the CPU needs to save the local data, program pointer etc. of the current
+ thread, and load the local data, program pointer etc. of the next thread
+  to execute. This switch is called a "context switch".
+  The CPU switches from executing in the context of one thread to
+  executing in the context of another.
+
+
+
+  Which Concurrency Model is Best?
+  So, which concurrency model is better?
+
+  As is often the case, the answer is that it depends on what
+  your system is supposed to do.
+  If your jobs are naturally parallel, independent and with no shared
+  state necessary, you might be able to implement your system using
+   the parallel worker model.
+
+  Many jobs are not naturally parallel and independent though.
+  For these kinds of systems I believe the assembly line concurrency
+   model has more advantages than disadvantages, and more advantages
+   than the parallel worker model.
+
+
+
+
+   Concurrency
+   Concurrency means that an application is making progress on more
+   than one task at the same time (concurrently).
+   Well, if the computer only has one CPU the application may not
+    make progress on more than one task at exactly the same time,
+     but more than one task is being processed at a time inside the
+     application. It does not completely finish one task before it
+     begins the next.
+
+
+
+     Parallelism
+     Parallelism means that an application splits its tasks up into
+     smaller sub-tasks which can be processed in parallel,
+     for instance on multiple CPUs at the exact same time.
+
+
+   Concurrency vs. Parallelism In Detail
+   As you can see, concurrency is related to how an application
+   handles multiple tasks it works on. An application may process
+   one task at at time (sequentially) or work on multiple tasks at
+   the same time (concurrently).
+
+   Parallelism on the other hand, is related to how an application
+    handles each individual task. An application may process the
+     task serially from start to end, or split the task up into
+     subtasks which can be completed in parallel.
+
+
+ Race condition only occur when multiple threads update shared resources.
+
