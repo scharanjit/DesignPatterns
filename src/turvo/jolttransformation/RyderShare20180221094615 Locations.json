@@ -1,0 +1,51 @@
+{
+	"Header": null,
+	"LoadInfo": null,
+	"MasterData": {
+		"Locations": [
+			{
+				"LocationId": "042220010",
+				"LocationName": "SHULLS HARDWARE",
+				"LocationType": null,
+				"Country": null,
+				"Region": null,
+				"StreetLine1": "67 S. MAIN",
+				"StreetLine2": "67 S. MAIN",
+				"City": "Johnstown",
+				"State": "OH",
+				"PostalCd1": "43031",
+				"PostalCd2": null,
+				"TimeZoneId": "5",
+				"CszLine": null,
+				"Latitude": "144548",
+				"Longitude": "297701",
+				"IsValid": null,
+				"Email": null,
+				"Phone": "",
+				"HoursOfOperationStart": null,
+				"HoursOfOperationEnd": null,
+				"HoursOfOperationDays": null,
+				"ShippingHoursStart": null,
+				"ShippingHoursEnd": null,
+				"ShippingHoursDays": null,
+				"ReceivingHoursEnd": null,
+				"ReceivingHoursDays": null,
+				"SchedulingType": null,
+				"SpecialInstructions": null,
+				"ReceivingHoursStart": null,
+				"Directions": "",
+				"CrossDock": null,
+				"ColdStorage": null,
+				"ContextType": null,
+				"PhoneType": null,
+				"EmailType": null,
+				"PhoneExtension": null,
+				"IsPrimary": null
+			}
+		],
+		"Customers": null,
+		"Contacts": null,
+		"Carriers": null,
+		"Equipments": null
+	}
+}

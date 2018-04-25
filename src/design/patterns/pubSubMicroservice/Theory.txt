@@ -1,0 +1,4 @@
+Implementing event-based communication between microservices (integration events)
+https://msdn.microsoft.com/library/ff649664.aspx
+
+https://github.com/dotnet/docs/blob/master/docs/standard/microservices-architecture/multi-container-microservice-net-applications/integration-event-based-microservice-communications.md
