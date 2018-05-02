@@ -1,4 +1,6 @@
-package datastructure.T25Algo.DijkstraShortestPathProblem;
+package datastructure.graphs;
+
+import datastructure.T25Algo.DijkstraShortestPathProblem.Node;
 
 import java.util.HashSet;
 import java.util.Set;

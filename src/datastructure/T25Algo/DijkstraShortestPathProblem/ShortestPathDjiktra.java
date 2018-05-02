@@ -1,6 +1,8 @@
 package datastructure.T25Algo.DijkstraShortestPathProblem;
 
 
+import datastructure.graphs.Graph;
+
 import java.util.*;
 
 /**

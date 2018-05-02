@@ -1,4 +1,4 @@
-package datastructure.T25Algo;
+package datastructure.graphs;
 
 
 import java.util.LinkedList;
