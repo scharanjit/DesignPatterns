@@ -1,0 +1,2 @@
+DFS:- Implemented with recursive algorithm (need a visited flag o that don't wind up in infinte circular loop)
+BFS:- using queue (Add children of a node in queue) take first element, remove it from queue and add all children in queue
