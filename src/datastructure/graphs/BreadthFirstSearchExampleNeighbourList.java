@@ -8,7 +8,7 @@ import java.util.Queue;
 public class BreadthFirstSearchExampleNeighbourList {
 
     private Queue<Node> queue;
-    static ArrayList<Node> nodes=new ArrayList<Node>();
+//    static ArrayList<Node> nodes=new ArrayList<Node>();
     static class Node {
         int data;
         boolean visited;
@@ -45,7 +45,7 @@ public class BreadthFirstSearchExampleNeighbourList {
         {
 
             Node element=queue.remove();
-            System.out.print(element.data + "t");
+            System.out.print(element.data + "t ");
             List<Node> neighbours=element.getNeighbours();
             for (int i = 0; i < neighbours.size(); i++) {
                 Node n=neighbours.get(i);
@@ -74,13 +74,13 @@ public class BreadthFirstSearchExampleNeighbourList {
         node40.addneighbours(node10);
         node40.addneighbours(node20);
         node10.addneighbours(node30);
-        node20.addneighbours(node10);
-        node20.addneighbours(node30);
+//        node20.addneighbours(node10);
+//        node20.addneighbours(node30);
         node20.addneighbours(node60);
         node20.addneighbours(node50);
-        node30.addneighbours(node60);
+//        node30.addneighbours(node60);
         node60.addneighbours(node70);
-        node50.addneighbours(node70);
+//        node50.addneighbours(node70);
         System.out.println("The BFS traversal of the graph is ");
         BreadthFirstSearchExampleNeighbourList bfsExample = new BreadthFirstSearchExampleNeighbourList();
         bfsExample.bfs(node40);
