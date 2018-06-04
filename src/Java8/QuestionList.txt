@@ -1,0 +1,45 @@
+1.) Difference between Intermediate and terminal operations in Stream?
+
+Intermediate operations are lazy in nature and do not get executed immediately.
+Terminal operations are not lazy, they are executed as soon as encountered.
+
+Intermediate operation is memorized and is called when terminal operation is called.
+
+
+All Intermediate operations return stream as it just transforms stream into another and terminal operation don’t.
+
+
+Example of Intermediate operations are:
+
+filter(Predicate)
+map(Function)
+flatmap(Function)
+sorted(Comparator)
+distinct()
+limit(long n)
+skip(long n)
+Example of terminal operations are :
+
+forEach
+toArray
+reduce
+collect
+min
+max
+count
+anyMatch
+allMatch
+noneMatch
+findFirst
+findAny
+
+
+2.) What is use of Optional in Java 8?
+
+Did you ever get NullPointerException as java developer.
+If you are experienced java developer, you might have got NullPointerException as some point of time.
+You might agree that NullPointerException is pain for novice or expert java developer.
+You have to put lot of defensive code in case you want to avoid NullPointerException.
+
+In oder to avoid NullPointerException, we use Optional
+https://java2blog.com/java-8-optional/
