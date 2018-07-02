@@ -1,0 +1,19 @@
+All the bean classes in Springa are singleton.
+
+Problem
+When you inject prototype bean to singleton bean, prototype bean still behave like a singleton bean.
+
+
+
+Solution is
+
+1.) Use annotation  @Lookup
+
+Or
+
+2.) Using ObjectFactory
+
+
+Or
+
+3.) Using ApplicationContextAware
