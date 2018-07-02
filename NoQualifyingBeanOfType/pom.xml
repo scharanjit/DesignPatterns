@@ -4,13 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.cj.spring.play</groupId>
-    <artifactId>circular-dependancy</artifactId>
-    <packaging>pom</packaging>
+    <groupId>NoQualifyingBeanOfType</groupId>
+    <artifactId>NoQualifyingBeanOfType</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>../Spring-XML-config</module>
-    </modules>
 
     <dependencies>
         <dependency>
@@ -33,4 +29,5 @@
     <properties>
         <spring.version>4.2.1.RELEASE</spring.version>
     </properties>
+
 </project>

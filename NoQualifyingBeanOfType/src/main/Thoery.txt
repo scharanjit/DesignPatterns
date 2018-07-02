@@ -1,0 +1,3 @@
+As you can see, we are getting NoSuchBeanDefinitionException:
+ No qualifying bean of type as there is no bean “y” declared in XML.
+
