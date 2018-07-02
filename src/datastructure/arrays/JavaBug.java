@@ -11,7 +11,7 @@ public class JavaBug {
 
 
     private static void call1() {
-        int size = 3;
+        int size = 3;  //try to change the size to 4,5,6 to understand the logic
         String[] array = new String[size];
         Arrays.fill(array, "");
         for(int i = 0; i <= 100; ) {
