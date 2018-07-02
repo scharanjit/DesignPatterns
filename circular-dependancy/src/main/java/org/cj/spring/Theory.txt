@@ -1,0 +1,14 @@
+Can you redesign your classes to avoid circular dependencies. Circular dependencies
+ are bad and should be avoided if possible at all. There are very rare situations
+ where circular dependencies can not be avoid.
+
+
+1.)
+ Setter injection
+ If you use Setter injection instead of Constructor injection {by commenting construcotr} to solve Circular
+  dependencies in Spring, there won’t be any issue.
+ Let’s change the above example and try Setter injection.
+
+
+
+ 2.) You use @Lazy with @Autowired to solve circular dependencies in Spring.
