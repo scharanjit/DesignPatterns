@@ -1,0 +1,21 @@
+MongoDB is cross-platform and represents its documents in a binary-encoded JSON
+ format called BSON (Binary JSON).
+
+ The lightweight binary format adds speed to the flexibility of the
+  JSON format, along with more data types. Fields inside MongoDB documents can be indexed.
+
+  MongoDB ensures high availability thanks to its replication mechanisms,
+   horizontal scalability allowed by sharding, and is currently the most
+    widely adopted document store.
+
+
+Key areas to monitor and spot slow downs in Mongo DB
+
+    Throughput metrics
+    Database performance
+    Resource utilization
+    Resource saturation
+    Errors (asserts)
+
+
+    
