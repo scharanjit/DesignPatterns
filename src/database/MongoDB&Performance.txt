@@ -18,4 +18,3 @@ Key areas to monitor and spot slow downs in Mongo DB
     Errors (asserts)
 
 
-    
