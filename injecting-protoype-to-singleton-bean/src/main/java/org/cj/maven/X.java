@@ -8,7 +8,7 @@ public class X {
     @Autowired
     Y y;
 
-//    @Lookup  // try uncommenting and see teh output
+    @Lookup  // try uncommenting and see teh output
     public Y getY() {
         return y;
     }
