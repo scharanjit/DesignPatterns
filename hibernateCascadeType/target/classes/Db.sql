@@ -7,13 +7,13 @@ use cascadedb;
 
 ---- STUDENT TABLE CREATION ----
 
-create table student (s_id integer not null, age integer not null, name varchar(255), subj_s_id integer, primary key (s_id));
+create table student (s_id integer not null AUTO_INCREMENT, age integer not null, name varchar(255), subj_s_id integer, primary key (s_id));
 
 
 
 ---- SUBJECT TABLE CREATION ----
 
-create table subject (s_id integer not null, marks integer not null, name varchar(255), primary key (s_id));
+create table subject (s_id integer not null AUTO_INCREMENT, marks integer not null, name varchar(255), primary key (s_id));
 
 
 
