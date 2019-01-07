@@ -18,7 +18,7 @@ public class Student {
 
     private int age;
 
-    @OneToOne(cascade= { CascadeType.REMOVE })
+    @OneToOne(cascade= { CascadeType.REMOVE }) //it removes the subject too while we delete the student
     private Subject subj;
 
     public int getS_id() {
