@@ -1,6 +1,6 @@
 package securerest.controllers;
 
-import com.learnshare.securerest.bean.HelloMessage;
+import securerest.bean.HelloMessage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import securerest.bean.HelloMessage;
 
 @RestController
 @RequestMapping("/guest")

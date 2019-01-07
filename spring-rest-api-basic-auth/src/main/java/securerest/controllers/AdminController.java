@@ -1,6 +1,7 @@
 package securerest.controllers;
 
-import com.learnshare.securerest.bean.HelloMessage;
+import org.springframework.web.bind.annotation.*;
+import securerest.bean.HelloMessage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -39,7 +40,7 @@ public class AdminController {
     }
     )
     @ResponseBody
-    public ResponseEntity<String> persistHL7(@RequestBody String name) {
+    public ResponseEntity<Void> persistHL7(@RequestBody String name) {
         logger.info("Post request is successful..");
         System.out.println(name);
         return ResponseEntity.status(HttpStatus.OK).build();
