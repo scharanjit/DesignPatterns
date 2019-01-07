@@ -4,17 +4,20 @@
     <session-factory>
         <!-- Database connection settings -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/datetimedb</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/lockingdb</property>
         <property name="hibernate.connection.username">sema4</property>
         <property name="hibernate.connection.password">root</property>
+
         <!-- Sql dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
         <!-- Printing the sql queries to the console -->
         <property name="show_sql">true</property>
+
         <!-- Mapping to the create schema DDL -->
-        <property name="hbm2ddl.auto">validate</property>
+        <property name="hbm2ddl.auto">create</property>
+
         <!-- Model class -->
         <mapping class="com.hibernate.model.Employee" />
-        <mapping class="com.hibernate.model.Company" />
     </session-factory>
 </hibernate-configuration>

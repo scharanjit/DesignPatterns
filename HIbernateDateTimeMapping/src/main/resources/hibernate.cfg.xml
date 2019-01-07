@@ -12,7 +12,7 @@
         <!-- Printing the sql queries to the console -->
         <property name="show_sql">true</property>
         <!-- Mapping to the create schema DDL -->
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">validate</property>
         <!-- Model class -->
         <mapping class="com.hibernate.model.Employee" />
         <mapping class="com.hibernate.model.Company" />
