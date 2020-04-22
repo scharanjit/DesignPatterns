@@ -1,0 +1,19 @@
+Inno DB vs MyISAM
+ACID (Atomicity, Consistency, Isolation, Durability)
+
+
+
+Hash Indexes are not the answer to all the slowness problems
+Pros of Hash Indexes :- It creates by using hash codes. SO it does not contain
+actual data
+As it does not contains actual values, we cannot use hashes in sorting, no partial matching
+
+Multiple rows can have same hash code ==> so each hash code points to multiple rows ..
+these are stored in linked list..again performance would be down
+
+
+
+Hash Indexes are built in memory on top of frequently used B-Tree indexes are known
+as Adaptive Hash Index
+
+Inno DB engine has this feature, that's why they are more popular that MyIsam
