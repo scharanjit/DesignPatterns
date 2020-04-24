@@ -1,0 +1,6 @@
+Prototype means ==> clone/cloneable
+
+
+Cloneable is an interface in Java which needs to be implemented by a
+class to allow its objects to be cloned.
+

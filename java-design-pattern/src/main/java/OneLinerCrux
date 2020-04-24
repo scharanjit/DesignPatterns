@@ -1,0 +1,9 @@
+Singleton :- Single Instance is needed (like db connection)
+Builder :- To avoid lot of constructors, telescopic constructors, ease of code
+Prototype :- Cloning. Easing of having few values default and then overrided them without using
+new keyword. Lot of lighter weight object and a lot faster, getting unique instance everytime.
+
+
+
+
+

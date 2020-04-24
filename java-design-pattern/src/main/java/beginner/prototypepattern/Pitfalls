@@ -1,0 +1,7 @@
+1.)Often not clear when to use
+2.) It creates shallow copy. Deep copy requires more coding
+
+In shallow copy, only fields of primitive data type are copied
+while the objects references are not copied.
+
+Deep copy involves the copy of primitive data type as well as object references.
