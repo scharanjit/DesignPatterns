@@ -1,0 +1,13 @@
+Singleton
+Return Same Instance
+One constructor method - no args
+constructor is always private
+No interface (since it has a private constructor and private instance inside)
+
+
+Factory
+Return Various Instance
+Multiple constructors
+Interface Driven :- Easier to do unit testing
+Adaptable to env more easily
+

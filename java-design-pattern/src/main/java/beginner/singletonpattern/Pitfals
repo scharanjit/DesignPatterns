@@ -1,0 +1,18 @@
+Drawbacks of Singleton
+
+1.) Often Overused :- Due to simplicity, everyone tries to make everything singleton.
+If everything will be singleton, it will slow down the application
+
+2.) Difficult to Unit Test :- Since singleton don't expose interface and has private
+constructor, as well as private members variables ==> leads to difficult to unit test.
+
+3.) In not careful, its not thread safe
+Ppl confused static as thread safe, hence not thread safe
+
+4.) Sometimes confused with Factory
+They start making getInstance taking parameters, As soon getInstance takes argument, it is
+not singleton anymore, rather a factory
+
+5.) java.util.Calendar is NOT a Singleton
+It is actually a prototype pattern because we are getting a unique instance every time we call
+it's getInstance method
