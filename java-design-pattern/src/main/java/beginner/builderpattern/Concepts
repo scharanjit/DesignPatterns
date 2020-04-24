@@ -1,0 +1,28 @@
+1.) Handles complex constructors
+To handle lot of arguments in the constructor
+
+2.) Large Number of parameters
+
+3.) Immutability
+
+Force immutability on an object
+
+Example:- StringBuilder
+DocumentBuilder
+Locale.Builder
+
+
+Design :-
+
+1.) People often creates multiple constructors and it can becomes difficult to manage.
+2.) The creation of multiple constructor with each parameter variation is called a telescoping constructor
+
+The builder pattern helps us overcome this by handling that construction with an object and rather than by
+parameters
+
+
+==> Builder pattern is  written by static inner class
+
+==> Negates the need for exposed setters
+
+

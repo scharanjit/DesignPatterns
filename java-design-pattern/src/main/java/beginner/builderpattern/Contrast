@@ -1,0 +1,12 @@
+Builder
+Handles complex constructors
+No interface required
+Can be a separate class
+Works with legacy code
+
+
+
+Prototype
+Implemented around a clone
+Avoids calling complex constructors
+Difficult to implement in legacy code
