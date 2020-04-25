@@ -1,0 +1,14 @@
+Factory is opposite of singleton
+
+Factory is responsible for lifecycle
+
+Common Interface
+
+Concrete classes :- Factories will be reference to multiple concrete classes or
+the implementation , but the client is unaware of that
+
+Parameterized create method
+
+
+
+

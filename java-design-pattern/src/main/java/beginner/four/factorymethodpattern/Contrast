@@ -1,0 +1,17 @@
+Singleton
+Returns One Instance
+One constructor method -- no args
+No interface
+No subclasses
+
+
+
+
+
+Factory
+Returns various instances
+Multiple constructor
+Very Much interface Driven
+Subclasses
+Adaptable to environment quite easily
+

@@ -1,0 +1,14 @@
+1.) Doesn't exposes instantiation logic
+Client does not know the type of object being created
+
+2.)Defer to subclasses
+
+
+3.) Common Interface
+
+4.) Specified by architecture, implemented by user
+
+Examples :- Calendar
+ResourceBundle
+NumberFormat
+
