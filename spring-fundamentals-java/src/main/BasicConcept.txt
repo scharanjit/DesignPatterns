@@ -31,9 +31,38 @@ how it works ?
 >> The application context is a configured Spring container with all of the dependencies wired
 up in it.
 
->> It;s not just creating a hashmap and shoving object in it
+>> It's not just creating a hashmap and shoving object in it
 
->> It can be used as registery and has wiring
+>> It can be used as registry and has wiring
 
+Scope of Bean in Spring (5 scopes)
+>> Singleton(Single Instance), Prototype(Unique instance per request), (valid in any configuration)
+>> Request(1 bean per HTTP request), Session(1 bean per session)
+and Global Session (1 Bean for application (entire life of application on server)) (valid only in web-aware configuration)
+
+
+Autowiring
+Wiring up the code and reduce configuration of code {reduced code in app config}
+
+
+Sterotypes Annnotations :- For Full Autowiring
+@Component
+@Repository
+@Service
+
+
+Bean Lifecycle (check screenshot) >> Init method >> Post contruct annotation
+
+
+Factory Bean (calendar example) >> Integrate with static code or legacy code
+
+
+
+spEL(Spring expression language @value)  seedNumeEXample >> read values at runtime
+
+Proxies (need to check separate course) >>
+
+Bean profiles (different profiles based upon env [profiles in our obj dev, stage , prod])
+@Profile
 
 
