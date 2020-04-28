@@ -1,0 +1,39 @@
+Spring is build to reduce complexities around JEE (Java enterprise edition)
+Simplified development with EJB (Enterprise Java Beans)
+
+Spring enabled us to do enterprise development without using application server
+Tomcat is a web-server not application server
+
+
+Sprint Highlights
+>> Simplified development around JEE
+>> POJO based
+
+>> Spring internally uses lot of design pattens like Factories, Singleton, Abstract factory
+Template Design methodologies
+
+The Problem Spring resolves
+
+Testability
+Scalability
+Maintainability
+Reduce Code Complexity
+Business Focus
+
+Check Example of Spring template method pattern
+How it reduce the lot of code to simples one line  ==>
+Screenshot from 2020-04-28 21-55-52-Template-Method-pattern.png
+
+
+how it works ?
+>> Everything in spring is a simple POJO
+>> Sping itself can be act as a glorifies hashmap. (It's actually called application context)
+>> The application context is a configured Spring container with all of the dependencies wired
+up in it.
+
+>> It;s not just creating a hashmap and shoving object in it
+
+>> It can be used as registery and has wiring
+
+
+
