@@ -1,1 +1,3 @@
 Where to maintain db pwd and username in  spring app ?
+
+Check ABC.spring.xml
