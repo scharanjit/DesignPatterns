@@ -1,0 +1,53 @@
+Transaction:- A series of action that is treated as single unit of work
+is considered as transaction
+
+
+For Example Buy a ticket and reserve a seat (either both should pass or both should fail)
+
+
+
+Transaction should follow ACID
+
+Atomicity :- A transaction should happen complete or either it should not happen at all.
+No mid or half committed.
+
+
+Consistency :- A transaction is committed only when all actions are completed. Data
+remains consistent
+
+Isolation :- One transaction should be isolated from another transaction. 1 transaction cannot
+read data from another transaction. they should be completely isolated
+
+Durability :- A transaction is durable when it cannot be undone by system failure.It saves
+in persistent storage.
+
+
+
+Transaction management ensures data consistency and integrity.
+
+
+Transaction types :-
+
+Global :- Multiple resources manage the transaction (MQs + RDBs)
+
+
+Local :- One resource manage the transaction (JDBC connection)
+
+
+Transaction Management Types
+
+Programmatic :- Developers write custom code to manage the transaction and set boundaries
+
+Declarative :- Developer separates transaction management from business code
+
+
+Isolation levels
+Default :- Default from underlying database
+
+
+
+
+
+
+
+

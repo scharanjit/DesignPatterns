@@ -1,0 +1,13 @@
+com/keysoft/datatranx/model/Ticket.class
+com/keysoft/datatranx/dao/ApplicationDAO.class
+com/keysoft/datatranx/dao/ITicketDAO.class
+com/keysoft/datatranx/service/TicketService.class
+com/keysoft/datatranx/service/ITicketService.class
+com/keysoft/datatranx/model/Application.class
+com/keysoft/datatranx/dao/IApplicationDAO.class
+com/keysoft/datatranx/config/WebConfiguration.class
+com/keysoft/datatranx/controller/TrackzillaController.class
+com/keysoft/datatranx/service/ApplicationService.class
+com/keysoft/datatranx/DatatranxApplication.class
+com/keysoft/datatranx/service/IApplicationService.class
+com/keysoft/datatranx/dao/TicketDAO.class
