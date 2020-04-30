@@ -1,0 +1,10 @@
+Ideally what shud happen
+
+it shud print Still working ... 300 ms
+main thread sleeping now  till 400ms and calls quit i.e. quitting true and nd it shud end with coffee is good
+at 500 ms, schedular make quitting false again  but it shud never affect
+
+Actual :- It keeps in working, never gets reset
+
+
+Debug :- before joins happen, again the flag is set to false

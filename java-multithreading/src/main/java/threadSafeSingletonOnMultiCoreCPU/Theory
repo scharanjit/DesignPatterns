@@ -1,0 +1,33 @@
+--> Putting synchronized block at method level in single core multi-threaded env
+Not an issue, both T1 and T2 get same instance
+
+--> Putting synchronized block at method level in multi core multi-threaded env
+
+Performance Hit
+
+
+NOw think we have 4 cores
+Only t1 will get access, t2,t3 and t4 need to wait
+
+there will be race condition among t2,t3 and t4
+
+
+There are multiple ways to overcome this problem
+
+1.) Double check locking (it also has few issues)
+
+It has synchronized write but read is non -sycnhronized, which will cause problem
+
+Can we guarantee that read operation will read the same value what write has written
+
+For that , we should have happens before link (which is not their)
+
+because happens before link created b/w synchronized or volatile writes or reads
+
+
+Solution is make key as volatile
+
+
+Issue :- Still our performance is bad
+
+The right solution is enumeration
