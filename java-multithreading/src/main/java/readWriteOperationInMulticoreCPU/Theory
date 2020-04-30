@@ -1,0 +1,35 @@
+Synchronization :- protect a block of code to be accessed by multiple threads
+
+Memory Access (Key point of visibility)
+CPU read data from
+
+Visibility guarantees the consistency of the variables.
+Or in a nutshell, all shared variables(shared among more than one threads)
+should be accesses in either VOLATILE WAY or SYNCHRONIZED WAY,
+or else there will be a race Condition or a bug in the code
+
+
+False Sharing
+
+The cache is organised in lines of data
+Each lines can hold 8 longs (64KB)
+
+When a visible variable in modified in an L1 cache, whole line is
+marked dirty for other caches too
+
+When a new thread tries to read from dirty line, it triggers a refresh on this line
+
+
+Suppose we have line 1 in L1 cache and it has stored variable a and b
+
+Core 1 needs variable a to do a ++
+Core 2 needs variable b to do b ++
+
+Now thread T1 modifies the value of a , there in making whole line dirty
+
+When core 2 requests reached, it will trigger for refresh . hence performance hit
+
+
+
+How to overcome ?
+Answer is Variable padding. Check False Shaing.java class for same

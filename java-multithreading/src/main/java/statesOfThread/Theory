@@ -1,0 +1,46 @@
+States of Thread
+
+A Thread has a state
+
+A thread can be running or not
+
+If thread is in WAIT state, the thread schedular does not try to give it a time slice
+
+States Diagram of thread
+
+Basic states
+
+NEW
+
+RUNNABLE (Thread scheduler is free to give a time slice of CPU so that execute it task)
+
+TERMINATED (Task Done)
+
+
+
+
+Other States
+
+
+NEW
+
+RUNNABLE     <===> BLOCKED  (waiting at the entrance of synchronized block)
+             <===> WAITING (parked using a wait call ..only be awaken by notify method)
+             <==> TIMED_WAITING parked using SLEEP(timeout) or WAIT(TIMEOUT) call
+
+TERMINATED
+
+
+Summary
+
+The thread scheduler can run the threads in the state RUNNABLE
+
+A BLOCKED thread  can only  run again  when the key is released.
+
+A waiting thread can only run  again when the notify method is called
+
+
+for blocked thread, if key is not released by synchronised block OR
+for waiting thread, notify is not called, these TWO THREADS WILL never be released.
+
+

@@ -1,0 +1,89 @@
+The are of doing several things at the same time is known as Concurrency
+
+
+Thread :- set of instructions
+
+Scheduler :- In multi CPU env, it shares task across resources of CPU
+
+
+Race Condition :- Accessing data concurrently leads to this problem
+
+Two threads reading are trying to read and write the same variable
+at the same time causes Race condition
+
+Synchronization :- Prevents a block of code to be executed by more than
+one thread at the same time.
+
+If we use static  method  synchronized , the class object holds the key
+If we use non static method synchronized, the instance of object holds the key
+If we use synchronised block inside the method(which is best practise) the key is held
+by dedicated object. {object will be hidden which is used for synchronization}
+
+Case 1
+Check the Mary instance method, where synchronization done at class level
+
+
+public static synchronized getName() {}
+public static synchronized getAge() {}
+
+Now if a thread is reading name, other thread cannot read age because synchronization
+done at class level and it has single key to open that block of object
+
+
+Case 2
+
+two instance of class person
+
+Mary
+public static synchronized getName() {}
+public static synchronized getAge() {}
+
+John
+public static synchronized getName() {}
+public static synchronized getAge() {}
+
+
+Since there are two instances, getName of Mary and get Name of john can be acessed at same time.
+
+
+
+Case 3
+
+Class Person (Synchronized)
+
+two instance of class person
+
+Mary
+public static synchronized getName() {}
+public static synchronized getAge() {}
+
+John
+public static synchronized getName() {}
+public static synchronized getAge() {}
+
+
+
+
+
+What is Reentrant Locks ?
+When a synchronized method calls another synchronized method. Now Method A will have key
+in order to go to method B, it needs to pass the key (as both are synchronized)
+
+So passing of key from a method A to B
+
+Locks are reentrant :- When  a thread holds a lock , it can enter a block synchronized
+on the lock it is holding
+
+
+
+What is Deadlock ?
+Deadlock is a situation where a thread T1 holds a key that is needed  by a thread t2
+ad T2 holds a key, that is need by T1
+
+
+
+
+
+
+
+
