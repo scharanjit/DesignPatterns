@@ -1,0 +1,7 @@
+With runnable, u can create as many threads as you want. (It is a big problem)
+
+Solution:- Executor Pattern
+
+Idea :-How to improve user threads as resources?
+
+refer screenshot executor idea

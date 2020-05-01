@@ -1,0 +1,24 @@
+CASing ==> Compare and Swap
+
+Just read atomic variables in java 8
+
+There is a branch of research focused on creating
+ non-blocking algorithms for concurrent environments.
+ These algorithms exploit low-level atomic machine instructions
+ such as compare-and-swap (CAS), to ensure data integrity.
+
+A typical CAS operation works on three operands:
+
+The memory location on which to operate (M)
+The existing expected value (A) of the variable
+The new value (B) which needs to be set
+
+The CAS operation updates atomically the value in M to B,
+but only if the existing value in M matches A, otherwise no action is taken.
+
+The most commonly used atomic variable classes in Java are
+AtomicInteger, AtomicLong, AtomicBoolean, and AtomicReference.
+ These classes represent an int, long, boolean and object reference
+ respectively which can be atomically updated.
+
+
