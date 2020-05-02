@@ -1,0 +1,5 @@
+Usage of constructor of abstract class
+Although we cannot instantiate the abstract class..what is the use of constructor ?
+To initialize the fields defined in abstract class, we need constructor in bastract class
+
+Check ServerAbstract.java

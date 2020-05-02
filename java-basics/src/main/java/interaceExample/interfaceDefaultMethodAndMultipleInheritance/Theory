@@ -1,0 +1,2 @@
+The multiple inheritance problem can occur,
+when we have two interfaces with the default methods of same signature

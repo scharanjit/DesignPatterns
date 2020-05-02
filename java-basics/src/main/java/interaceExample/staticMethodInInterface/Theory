@@ -1,0 +1,5 @@
+the static methods in interface are similar to default method
+so we need not to implement them in the implementation classes.
+We can safely add them to the existing interfaces without changing
+the code in the implementation classes. Since these methods are static,
+ we cannot override them in the implementation classes.

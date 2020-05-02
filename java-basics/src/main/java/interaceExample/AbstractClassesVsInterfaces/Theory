@@ -1,0 +1,17 @@
+With the introduction of default methods in interfaces,
+
+>>it seems that the abstract classes are same as interface in java 8.
+
+>> However this is not entirely true,
+
+>> abstract class can have constructor while in interfaces we can’t have constructors.
+
+>> The purpose of interface is to provide full abstraction,
+ while the purpose of abstract class is to provide partial abstraction.
+
+>> Abstract class can contain non-static, non-final members and
+   attributes (protected, private in addition to public)
+
+
+
+Real Life Interface Example :- Collections List

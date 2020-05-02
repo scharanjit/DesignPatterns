@@ -1,0 +1,4 @@
+For example, if several classes such as A, B, C
+and D implements an interface XYZInterface then if we add a new
+method to the XYZInterface, we have to change the code in all
+the classes(A, B, C and D) that implements this interface.
