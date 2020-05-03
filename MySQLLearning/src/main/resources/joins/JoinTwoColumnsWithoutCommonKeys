@@ -1,0 +1,33 @@
+CREATE TABLE dbo.TABLEA(a_id INT, c1 INT);
+
+INSERT INTO dbo.TABLEA(a_id,c1)
+VALUES(1,345),(2,132);
+
+CREATE TABLE dbo.TABLEB(b_id INT, c2 INT);
+
+INSERT INTO dbo.TABLEB(b_id,c2)
+VALUES(1,245),(2,456);
+
+
+DECLARE @some_value INT = 2;
+
+SELECT *
+  FROM dbo.TABLEA AS A
+  JOIN dbo.TABLEB AS B
+    ON @some_value = 2;
+
+
+
+Result
+
+| A_ID |  C1 | B_ID |  C2 |
+|------|-----|------|-----|
+|    1 | 345 |    1 | 245 |
+|    1 | 345 |    2 | 456 |
+|    2 | 132 |    1 | 245 |
+|    2 | 132 |    2 | 456 |
+
+
+In this example you get the cartesian product of all rows in both tables.
+
+
