@@ -1,0 +1,31 @@
+DI(Dependency Injection):
+Dependency injection is a pattern used to create instances of
+objects that other objects rely upon without knowing at compile
+time which class will be used to provide that functionality or
+simply the way of injecting properties to an object is called dependency injection.
+
+We have three types of Dependency injection
+
+Constructor Injection
+Setter/Getter Injection
+Interface Injection
+Spring will support only Constructor Injection and Setter/Getter Injection.
+
+
+IOC(Inversion Of Control):
+Giving control to the container to create and inject instances of
+objects that your application depend upon, means instead of you are
+creating an object using the new operator, let the container do
+that for you. Inversion of control relies on dependency injection
+because a mechanism is needed in order to activate the components
+providing the specific functionality
+
+The two concepts work together in this way to allow for
+much more flexible, reusable, and encapsulated code to be written.
+As such, they are important concepts in designing object-oriented solutions.
+
+There are two types of IoC containers. They are:
+
+BeanFactory
+ApplicationContext
+

@@ -1,0 +1,14 @@
+>> HashMap does not call hashcode when null is passed as key
+and null Key is handled as special case.
+
+>> HashMap puts null key in bucket 0 and maps null as key to passed value.
+
+>> HashMap does it by linked list (balanced tree in Java 1.8) data structure.
+
+>> HashMap uses linked list  (balanced tree in Java 1.8) data structure internally.
+
+>> While in Hashmap get method the checks if key is passed as null.
+
+Search Value for null key in bucket 0.
+
+Hence there can only be one null key in one hashmap object.

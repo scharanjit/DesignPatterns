@@ -22,10 +22,10 @@ Can we guarantee that read operation will read the same value what write has wri
 
 For that , we should have happens before link (which is not their)
 
-because happens before link created b/w synchronized or volatile writes or reads
+because happens before link created b/w synchronized or volatileExample writes or reads
 
 
-Solution is make key as volatile
+Solution is make key as volatileExample
 
 
 Issue :- Still our performance is bad

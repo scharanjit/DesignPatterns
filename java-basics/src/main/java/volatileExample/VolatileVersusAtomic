@@ -1,0 +1,19 @@
+Volatile :- It makes sure that an individual operation (read/write) is atomic
+
+volatile only ensures, that at the moment of access of such a variable,
+the new value will be immediately visible to all other threads
+
+
+Operations like i = i + 1 involves read and write...however between this
+ read and write, another thread can do write operation, results in causing data issue
+
+Assume i = 0
+Thread A reads i, calculates i+1, which is 1
+Thread B sets i to 1000 and returns
+Thread A now sets i to the result of the operation, which is i = 1
+
+
+ On the Other hand
+
+ Atomic Variables like AtomicInt or Atomic Long makes sure concurrent access of
+ single variable (it based upon CASing Compare and Swap concept)

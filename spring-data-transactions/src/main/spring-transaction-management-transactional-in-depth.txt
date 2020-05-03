@@ -87,7 +87,7 @@ Just make sure @EnableTransactionManagement in enabled (Spring boot it is automa
 
  <bean id="ABCTransactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
         <property name="sessionFactory" ref="ABCSessionFactory"/>
-        <property name="defaultTimeout" value="${LIS.transactionTimeout}"/>
+        <property name="defaultTimeout" value="${ABC.transactionTimeout}"/>
     </bean>
 
 
@@ -95,10 +95,10 @@ Just make sure @EnableTransactionManagement in enabled (Spring boot it is automa
  		implements ResourceTransactionManager, BeanFactoryAware, InitializingBean
 
 
-<bean id="LISSessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+<bean id="ABCSessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="dataSource" ref="ABCDataSource"/>
         <property name="packagesToScan" value="com.org.abc"/>
-        <property name="entityInterceptor" ref="LISEntityInterceptor"/>
+        <property name="entityInterceptor" ref="ABCEntityInterceptor"/>
         <property name="entityTypeFilters" ref="nonHistoryEntitiesFilter"/>
         <property name="mappingResources">
             <list>

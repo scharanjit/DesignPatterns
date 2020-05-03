@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+  <bean id="ABCTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+    <property name="sessionFactory" ref="ABCSessionFactory"/>
+  </bean>
+
+
+  <bean id="ABCSessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+    <property name="dataSource" ref="LISDataSource"/>
+    <property name="packagesToScan" value="com.sema4.lis"/>
+    <property name="entityInterceptor" ref="LISEntityInterceptor"/>
+    <property name="entityTypeFilters" ref="nonHistoryEntitiesFilter"/>
+    <property name="mappingResources">
+      <list>
+        <value>
+          ABC-queries.hbm.xml
+        </value>
+      </list>
+    </property>
+
+    <property name="hibernateProperties" ref="HibernateProperties"/>
+  </bean>
+
+  <bean id="HibernateProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+    <property name="properties">
+      <props>
+        <prop key="hibernate.dialect">
+          ${LIS.dialect}
+        </prop>
+        <prop key="hibernate.show_sql">
+          false
+        </prop>
+        <prop key="hibernate.globally_quoted_identifiers">
+          false
+        </prop>
+        <prop key="hibernate.hbm2ddl.auto">
+          ${LIS.hbm2ddl}
+        </prop>
+        <prop key="hibernate.temp.use_jdbc_metadata_defaults">
+          false
+        </prop>
+        <prop key="hibernate.schema_update.unique_constraint_strategy">
+          skip
+        </prop>
+      </props>
+    </property>
+  </bean>
+
+</beans>

@@ -1,0 +1,14 @@
+In Java, null is just a value that a reference
+(which is basically a restricted pointer) can have.
+
+It means that the reference refers to nothing. In this case
+ you still consume the space for the reference. This is 4 bytes
+ on 32-bit systems or 8 bytes on 64-bit systems.
+
+ However, you're not consuming any space for the class that
+ the reference points to until you actually allocate an instance
+ of that class to point the reference at.
+
+ As far as the String, a String in Java takes 16 bits (2 bytes)
+ for each character, plus a small amount of book-keeping overhead,
+ which is probably undocumented and implementation specific.

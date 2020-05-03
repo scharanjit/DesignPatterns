@@ -1,10 +1,7 @@
 package interaceExample.staticMethodInInterface;
 
-public class Example implements MyInterface{
-  // implementing abstract method
-  public void existingMethod(String str){
-    System.out.println("String is: "+str);
-  }
+public class Example implements MyInterface {
+
   public static void main(String[] args) {
     Example obj = new Example();
 
@@ -18,5 +15,10 @@ public class Example implements MyInterface{
     obj.existingMethod("Java 8 is easy to learn");
 
 
+  }
+
+  // implementing abstract method
+  public void existingMethod(String str) {
+    System.out.println("String is: " + str);
   }
 }

@@ -1,0 +1,9 @@
+DAO :- Data Access Object :- It is a light weight layer which provides access to DB.
+
+DAO is more related to entity
+
+
+
+
+ If DAOs are designed with an interface that supports the
+ above-mentioned operations, then it is an instance of Repository pattern.

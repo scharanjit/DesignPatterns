@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class DbSingletonLazyLoadThreadSafe {
 
-  private static volatile DbSingletonLazyLoadThreadSafe instance = null;
+  private static volatileExample DbSingletonLazyLoadThreadSafe instance = null;
   //it will be thread safe inside JVM
 
-  private static volatile Connection conn = null;
+  private static volatileExample Connection conn = null;
 
   private DbSingletonLazyLoadThreadSafe(){
 
