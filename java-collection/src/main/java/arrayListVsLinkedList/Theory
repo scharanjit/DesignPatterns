@@ -1,0 +1,10 @@
+When to use LinkedList and when to use ArrayList?
+1) As explained above the insert and remove operations
+give good performance (O(1)) in LinkedList compared to ArrayList(O(n)).
+ Hence if there is a requirement of frequent addition and deletion
+ in application then LinkedList is a best choice.
+
+2) Search (get method) operations are fast in Arraylist (O(1))
+but not in LinkedList (O(n)) so If there are less add and remove
+ operations and more search operations requirement, ArrayList would
+ be your best bet.
