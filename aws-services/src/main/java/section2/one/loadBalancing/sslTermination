@@ -1,0 +1,19 @@
+SSL termination is a process by which SSL-encrypted
+data traffic is decrypted (or offloaded).
+
+Servers with a secure socket layer (SSL) connection can
+ simultaneously handle many connections or sessions.
+
+
+
+
+
+
+
+What is SSL termination in AWS?
+SSL termination is the term pointing to
+proxy servers or load balancers which accepts SSL/TLS connections
+however do not use the same while connecting to the back end servers.
+
+ E.g. A load balancer exposed to the internet might accept HTTPS at
+ port 443 but connects to backend servers via HTTP only.

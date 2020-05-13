@@ -1,0 +1,6 @@
+Public IP addresses are dynamic - i.e. if you stop/start
+ your instance you get reassigned a new public IP.
+
+ Elastic IPs get allocated to your account, and stay the same -
+  it's up to you to attach them to an instance or not.
+  You could say they are static public IP addresses.

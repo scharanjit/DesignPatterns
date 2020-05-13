@@ -1,0 +1,6 @@
+What are target groups in AWS?
+A target group tells a load balancer where to direct traffic to : EC2 instances,
+ fixed IP addresses; or AWS Lambda functions, amongst others. 
+
+When creating a load balancer, you create one or more listeners
+ and configure listener rules to direct the traffic to one target group.

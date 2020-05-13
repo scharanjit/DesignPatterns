@@ -1,0 +1,7 @@
+Application can be accessed via EC2 public IP and also static IP for ELB.
+
+With security group we can set up Inbound Rule that it can only accept HTTP request through 
+ELB static IP
+
+
+Inbound Rule HTTP intead of 0.0.0.0/0 to load balancer
