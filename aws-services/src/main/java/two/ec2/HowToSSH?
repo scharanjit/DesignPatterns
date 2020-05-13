@@ -1,0 +1,9 @@
+SSh to EC2 instance using linux machine
+
+
+
+In Security Group , TCP 22 enabled in Inbound rule
+
+ssh -i <location-to-pem-file>bastion.pem ec2-user@<Public-DNS-COPY-FROM-LAUNCHED-INSTANCE>
+
+
