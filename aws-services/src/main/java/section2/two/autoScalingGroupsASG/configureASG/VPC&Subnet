@@ -1,0 +1,7 @@
+What is difference between VPC and subnet?
+A virtual private cloud (VPC) is a virtual network dedicated to your AWS account.
+
+ A subnet is a range of IP addresses in your VPC. 
+
+A route table contains a set of rules, called routes, that are used to determine
+ where network traffic is directed.
