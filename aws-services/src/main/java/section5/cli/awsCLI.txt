@@ -1,0 +1,66 @@
+charanjiths@PRINHYLTPDL1167:~$ aws --version
+aws-cli/1.16.247 Python/3.5.2 Linux/4.15.0-99-generic botocore/1.12.237
+
+
+charanjiths@PRINHYLTPDL1167:~$ aws configure
+AWS Access Key ID [****************UQFP]: XX
+AWS Secret Access Key [****************EWSi]: XX
+Default region name [us-east-1]: 
+Default output format [None]: 
+
+
+
+
+charanjiths@PRINHYLTPDL1167:~$ ls ~/.aws
+config  credentials
+charanjiths@PRINHYLTPDL11
+
+
+charanjiths@PRINHYLTPDL1167:~$ cat ~/.aws/config
+[default]
+region = us-east-1
+[profile XXXXXXXXXXXXX]
+region = us-east-1
+[profile dev]
+region = us-east-1
+[profile prod]
+region = us-east-1
+[profile circleci]
+region = us-east-1
+[profile XXXXXXXXXXXX]
+[profile XXX]
+
+
+
+
+charanjiths@PRINHYLTPDL1167:~$ cat ~/.aws/credentials 
+[default]
+aws_secret_access_key = XX
+aws_access_key_id = XX
+[XXXXXXXX]
+aws_access_key_id = XXXXXXX
+aws_secret_access_key = XXXXX
+[dev]
+aws_secret_access_key = XXXXXXXXXX
+aws_access_key_id = XXXXXXXXXX
+[prod]
+aws_secret_access_key = XXXXXXXXXX
+aws_access_key_id = XXXXXXXXXXXXXXXX
+[circleci]
+aws_secret_access_key = XXXXXXXXXXXXXX+uDKcPae
+aws_access_key_id = XXXXXXXXXXX
+[XXXXXXXXX]
+aws_access_key_id = XXXXXXXXXXX
+aws_secret_access_key = XXXXXXXXXXXXXXXXXXXXXXX
+[sai]
+aws_access_key_id = XXXXXXXXXXXX
+aws_secret_access_key = XXXXXXXXXXXXXXXXXXXX
+charanjiths@PRINHYLTPDL1167:~$ 
+
+
+
+
+
+
+
+
