@@ -11,7 +11,7 @@ public class Regexsasa {
 //        System.out.println(cbxn);
 
 
-        String var = "MSH|^~\\&|SEMA4LPLUS|SEMA4LPLUS|MEDGIS|MSMC|20180806104655||ORM^O01|40|P|2.5.1\n" +
+        String var = "MSH|^~\\&|ABC5LPLUS|ABC5LPLUS|MEDGIS|MSMC|20180806104655||ORM^O01|40|P|2.5.1\n" +
                 "PID|1|41|HO9942|1|Beka^Swartz^Middle||19900111|F|||||9618606047^^^charan@charan.com^1~|||||S4Accession#\n" +
                 "NK1|1|Last Name^First Name|Brother||||||||||||M|19900101|||||||||||||||||2\n" +
                 "NK1|2|DSd^First|Foster child||||||||||||F|19980101|||||||||||||||||3\n" +
@@ -23,7 +23,7 @@ public class Regexsasa {
                 "IN2|1||^EmployerName\n" +
                 "ORC|NW|243245454|1001-1|BIOAAUR|||201808060616||20180806|polaiah.chowdagani||4101^Elisabeth^Baron|||20180806\n" +
                 "\n" +
-                "OBR|1|243245454|1001-1|BIOAAUR|com.sema4.lis.TestProtocol@404,com.sema4.lis.TestProtocol@410|201808060616|201808060616|||||||||4101^Elisabeth^Baron\n" +
+                "OBR|1|243245454|1001-1|BIOAAUR|com.ABC5.lis.TestProtocol@404,com.ABC5.lis.TestProtocol@410|201808060616|201808060616|||||||||4101^Elisabeth^Baron\n" +
                 "SPM|1|10011||CVS^chorionic villi||||admin||chorionic villi||||||||||||||1|201808060615\n" +
                 "OBX|1|CE|PAT.SPECIAL|SPECIAL|GROU";
 //        System.out.println(cbxn.replaceAll("(?m)^[\\s&&[^n]]+|[\\s+&&[^n]]+$",""));

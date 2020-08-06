@@ -16,7 +16,7 @@
   <!--Local session factory bean-->
   <bean id="A-B-CSessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
     <property name="dataSource" ref="A-B-CDataSource"/>  //path to data source
-    <property name="packagesToScan" value="com.sema4.A-B-C"/>
+    <property name="packagesToScan" value="com.abc4.A-B-C"/>
     <property name="entityInterceptor" ref="A-B-CEntityInterceptor"/>
     <property name="entityTypeFilters" ref="nonHistoryEntitiesFilter"/>
     <property name="mappingResources">
