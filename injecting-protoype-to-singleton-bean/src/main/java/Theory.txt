@@ -1,7 +1,8 @@
 All the bean classes in Springa are singleton.
 
 Problem
-When you inject prototype bean to singleton bean, prototype bean still behave like a singleton bean.
+When you inject prototype bean to singleton bean,
+prototype bean still behave like a singleton bean.
 
 
 

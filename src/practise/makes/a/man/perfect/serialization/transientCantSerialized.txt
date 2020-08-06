@@ -1,5 +1,5 @@
 In multithreaded environment to maintain the unique value of a
-particular field, we are using volatile.
+particular field, we are using volatileExample.
 
 Any reason why it can't be serialised.
 

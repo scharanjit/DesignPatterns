@@ -12,7 +12,7 @@ public class ShoppingCartTest {
         cart.addItem(item2);
 
         //pay by paypal
-        cart.pay(new PaypalStrategy("myemail@example.com", "mypwd"));
+        cart.pay(new PaypalStrategy("myemail@examplewithoutbridge.com", "mypwd"));
 
         //pay by credit card
         cart.pay(new CreditCardStrategy("Pankaj Kumar", "1234567890123456", "786", "12/15"));

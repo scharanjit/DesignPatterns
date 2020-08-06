@@ -13,7 +13,7 @@ package datastructure.memorymanagement;
  * Its advantage is that it is the fastest search as it searches only
  * the first block i.e. enough to assign a process.
  * It may problems of not allowing processes to take space even if
- * it was possible to allocate. Consider the above example, process number 4
+ * it was possible to allocate. Consider the above examplewithoutbridge, process number 4
  * (of size 426) does not get memory. However it was possible to allocate memory
  * if we had allocated using best fit allocation [block number 4 (of size 300) to
  * process 1, block number 2 to process 2, block number 3 to process 3 and block

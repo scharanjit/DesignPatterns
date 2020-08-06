@@ -32,7 +32,7 @@ public class FinalizeSampleObject {
  * Basically, the ‘main()’ method of this class creates ‘SampleObject’ continuously.
  * The interesting part of this program is the “finalize()” method. This method puts
  * the currently executing thread (i.e. the ‘Finalizer’ thread) to sleep for 1 minute.
- * This example illustrates a poor implementation of “finalize()” method.
+ * This examplewithoutbridge illustrates a poor implementation of “finalize()” method.
  *
  *
  * compare heap dumps with and without overriding finalize method @heaphero.io

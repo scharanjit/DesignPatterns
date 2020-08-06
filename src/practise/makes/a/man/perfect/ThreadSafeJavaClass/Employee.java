@@ -32,9 +32,9 @@ package practise.makes.a.man.perfect.ThreadSafeJavaClass;
  }
 
  }
- Make field number volatile.
+ Make field number volatileExample.
  public class MyClass {
- private volatile int number;
+ private volatileExample int number;
 
  public MyClass(int number) {
  this.number = number;
@@ -50,7 +50,7 @@ package practise.makes.a.man.perfect.ThreadSafeJavaClass;
  }
  Use a synchronized block. Classic version of this approach described in
  Chapter 4.3.5 of Java Concurrency in practice.
- And the funny thing about that it has an error in the example which
+ And the funny thing about that it has an error in the examplewithoutbridge which
  is mentioned in a errata for this book.
  public class MyClass {
  private int number;
@@ -73,7 +73,7 @@ public class Employee {
 
     //make it immutable
     //or
-    // make local variable volatile
+    // make local variable volatileExample
 //    or
     //through synchronised block
 

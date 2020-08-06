@@ -2,7 +2,7 @@ package datastructure.Multithreading;
 
 public class ThreadInJava extends Thread {
 
-    private static volatile boolean bool = true;
+    private static volatileExample boolean bool = true;
 
     public void run() {
         while (bool) {
