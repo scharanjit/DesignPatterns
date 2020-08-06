@@ -1,0 +1,17 @@
+Client == > here we wrote the query
+
+
+Query Cache == > check if query result exist in cache (it is case sensitive)
+SQL is case in-sensitive but query cache is case sensitive
+
+Parser ==> check syntax  from where
+
+pre processor ==> db tables exist , user has access to those table
+
+query optimizer ==> optimise the actual query
+
+query execution engine ==>
+
+storage execution  ==>
+
+data  ==>

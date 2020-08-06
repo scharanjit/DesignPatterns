@@ -1,0 +1,16 @@
+Q56. What is a Stored Procedure?
+A Stored Procedure is a function which consists of many SQL statements
+ to access the database system.
+ Several SQL statements are consolidated into a stored procedure and execute
+ them whenever and wherever required which saves time and avoid writing code again and again.
+
+Q57. List some advantages and disadvantages of Stored Procedure?
+Advantages:
+A Stored Procedure can be used as a modular programming which means
+create once, store and call for several times whenever it is required.
+This supports faster execution. It also reduces network traffic and
+provides better security to the data.
+
+Disadvantage:
+The only disadvantage of Stored Procedure is that it can be executed only
+in the database and utilizes more memory in the database server.

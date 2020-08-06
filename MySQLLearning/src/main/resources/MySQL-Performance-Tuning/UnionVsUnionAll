@@ -1,7 +1,8 @@
 Union :- Gives distinct result(remove duplicates)
 Union All :- Gives duplicate
 
-If there are two tables without duplicates, use Union All over Union (because Union takes more time
+If there are two tables without duplicates,
+use Union All over Union (because Union takes more time
 eliminate duplicate)
 
 Check execution plan

@@ -1,0 +1,9 @@
+ Atomicity
+Consistency
+Isolation Durabilyt
+InnoDB engine prefers of MyISAM
+row lock, FK, joins, ACID complaint, Transactional
+hash index ==> does not support sorting hashes have no order
+B tree index (used for sorting, each leaf nodes contians link to next node
+Clustered index ..row with adjacent keys stored next to each other (Fast data access)
+Secondary or Non clustered index (just store the pointer to row or clustered index)

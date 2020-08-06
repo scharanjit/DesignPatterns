@@ -1,0 +1,20 @@
+Q54. What is a View?
+A view is a virtual table which consists of a subset
+of data contained in a table. Since views are not present,
+ it takes less space to store. View can have data of one or more
+  tables combined and it depends on the relationship.
+
+Q55. What are Views used for?
+A view refers to a logical snapshot based on a table or
+another view. It is used for the following reasons:
+
+Restricting access to data.
+Making complex queries simple.
+Ensuring data independence.
+Providing different views of same data.
+
+
+CREATE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;

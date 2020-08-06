@@ -1,0 +1,22 @@
+Delete
+It is DML Command
+It is used to delete all the records row by row
+By using delete command we can delete a specific record
+Where condition we can use with the delete command
+Delete will work slow compare with truncate
+Delete will not reset auto-generate id. Once when we delete all the records from the table.
+
+
+
+Truncate
+It is DDL Command
+It is used to delete all the records at a time
+By using truncate we cannot delete specific record
+Where condition will not work with truncate
+Truncate will work fast compare with delete
+Truncate will reset auto-generate id from starting number.
+
+
+
+DROP command removes a table and it cannot be rolled back
+from the database whereas TRUNCATE command removes all the rows from the table.

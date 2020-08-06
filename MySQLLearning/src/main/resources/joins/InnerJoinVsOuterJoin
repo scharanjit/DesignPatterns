@@ -1,0 +1,9 @@
+Inner joins don’t include non-matching rows; whereas, outer joins do include them.
+
+Left outer join or Right outer join
+
+An outer join is used to return results by combining rows from two
+ or more tables.
+
+ But unlike an inner join, the outer join will return every row
+ from one specified table, even if the join condition fails.
