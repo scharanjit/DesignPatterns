@@ -19,7 +19,7 @@ package debugging;
  4. You may not have a compatible texting plan.
 
  5. Due to mergers between wireless carriers, be sure to select the working
- option in the drop down menu of choices. For example, if you do not receive
+ option in the drop down menu of choices. For examplewithoutbridge, if you do not receive
  messages when AT&T is selected, then try the option listed as AT&T (Legacy).
 
  6. Have you set up a personal firewall on your mobile device to block

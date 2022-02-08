@@ -1,0 +1,16 @@
+ import software.amazon.awssdk.services.s3.S3Client;
+
+
+
+ private S3Client s3;
+
+ @PostConstruct
+  public void init() {
+    s3 = S3Client.builder()
+        .credentialsProvider(InstanceProfileCredentialsProvider.builder().build())
+        .region(Region.of(awsRegion))
+        .build();
+  }
+
+
+

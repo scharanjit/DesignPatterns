@@ -4,7 +4,7 @@ package org.cj.spring.play;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Spring XML based configuration example
+ * Spring XML based configuration examplewithoutbridge
  *
  */
 public class SpringXMLConfigurationMain

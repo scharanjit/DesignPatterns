@@ -1,0 +1,4 @@
+The number of instances of each entity involved in an instance of a
+ relation of a relationship describes how often an entity
+ can participate in relationship. (1:1, 1: many, many: many).
+

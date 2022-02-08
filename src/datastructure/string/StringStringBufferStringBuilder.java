@@ -41,7 +41,7 @@ When to use which one :
 If a string is going to remain constant throughout the program,
 then use String class object because a String object is immutable.
 
-If a string can change (example: lots of logic and operations in the
+If a string can change (examplewithoutbridge: lots of logic and operations in the
 construction of the string) and will only be accessed from a single thread,
 using a StringBuilder is good enough.
 

@@ -1,0 +1,7 @@
+Normalization is a scientific process which is called to
+decomposing a table into a number of tables. This process automatically
+reduces duplicate data and also automatically avoids insertion, update, deletion problems.
+
+In the design phase of SDLC, database designers design the LOGICAL
+ MODEL of the database in this logical model only database designers
+ use normalization process by using normal forms.

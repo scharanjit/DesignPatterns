@@ -1,0 +1,29 @@
+Composite key, or composite primary key, refers to cases where
+more than one column is used to specify the primary key of a table.
+
+
+
+
+
+
+A single attribute or a set of attributes that uniquely
+identifies all attributes in a relation is super key.
+
+A proper subset of a super key, which is also a super key is a candidate key.
+
+
+
+Key Differences Between Super Key and Candidate Key
+
+A single attribute or a set of attributes that can uniquely
+identify all attributes of a particular relation is called Super key.
+
+On the other hands, a super key that is a proper subset of another super key
+is called candidate key.
+
+All candidate keys are super keys but the inverse is not true.
+
+The set of super keys is verified to find candidate keys whereas,
+ the set of the candidate keys is verified to select a single primary key.
+
+Super keys are comparatively more in number than candidate keys.

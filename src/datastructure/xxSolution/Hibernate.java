@@ -28,7 +28,7 @@ package datastructure.xxSolution;
  * <p>
  * Persistent objects and collections
  * <p>
- * Short-lived, single threaded objects containing persistent state and business function. These can be ordinary JavaBeans/POJOs. They are associated with exactly one Session. Once the Session is closed, they will be detached and free to use in any application layer (for example, directly as data transfer objects to and from presentation).
+ * Short-lived, single threaded objects containing persistent state and business function. These can be ordinary JavaBeans/POJOs. They are associated with exactly one Session. Once the Session is closed, they will be detached and free to use in any application layer (for examplewithoutbridge, directly as data transfer objects to and from presentation).
  * <p>
  * Transient and detached objects and collections
  * <p>

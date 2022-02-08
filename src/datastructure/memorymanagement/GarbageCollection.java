@@ -12,10 +12,10 @@ package datastructure.memorymanagement;
  * instance is no longer referenced for fields.
  * <p>
  * You only need to explicitly null if you know it would remain referenced
- * otherwise. For example an array which is kept around. You may want to null
+ * otherwise. For examplewithoutbridge an array which is kept around. You may want to null
  * the individual elements of the array when they are no longer needed.
  * <p>
- * For example, this code from ArrayList:
+ * For examplewithoutbridge, this code from ArrayList:
  * <p>
  * public E remove(int index) {
  * RangeCheck(index);

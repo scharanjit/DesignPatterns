@@ -11,7 +11,7 @@ package datastructure.xxSolution;
  * Javascript code in a form such that when that code is displayed,
  * the browser does something nasty. It could be as simple as popping up
  * an alert box, or it could be much worse. The solution is to escape all
- * untrusted user input when it is displayed in a page. For example,
+ * untrusted user input when it is displayed in a page. For examplewithoutbridge,
  * <script>alert('Got ya!');</script>
  * will become
  * <p>

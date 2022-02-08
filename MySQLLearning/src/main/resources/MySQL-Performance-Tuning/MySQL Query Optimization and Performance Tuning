@@ -1,0 +1,43 @@
+==> show status like 'Last_Query_Cost' ;
+==> EXPLAIN EXTENDED
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+mysql> explain extended select j1.c1 from j1, j2, j3 where j1.c1 = j2.c1 and j3.c1 = j1.c1;
++----+-------------+-------+------+---------------+------+---------+------+------+-----------------------------------------------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra                                               |
++----+-------------+-------+------+---------------+------+---------+------+------+-----------------------------------------------------+
+|  1 | SIMPLE      | NULL  | NULL | NULL          | NULL | NULL    | NULL | NULL | Impossible WHERE noticed after reading const tables |
++----+-------------+-------+------+---------------+------+---------+------+------+-----------------------------------------------------+
+1 row in set, 1 warning (0.04 sec)
+
+mysql> show warnings;
++-------+------+-------------------------------------------------------------------------------+
+| Level | Code | Message                                                                       |
++-------+------+-------------------------------------------------------------------------------+
+| Note  | 1003 | select '0' AS `c1` from `test`.`j1` join `test`.`j2` join `test`.`j3` where 0 |
++-------+------+-------------------------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+EXPLAIN EXTENDED adds a warning message to the EXPLAIN output
+which displays additional information
+, including the rewritten query.
+
+
+==> Complex Query or Multiple Query
+==> Optimize instead of using MIN or MAX , use order by  ASC/DESC limit 1
+==> Optimize Group By ...use condition like where len < 100
+
+==> <> not symbol ignores indexes

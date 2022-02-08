@@ -1,0 +1,21 @@
+Collation is a set of rules that tell database engine
+how to compare and sort the character data in SQL Server.
+
+Collation can be set at different levels in SQL Server.
+Below are the three levels:
+
+SQL Server level
+Database level
+Column level
+
+CREATE TABLE Products (ProductID int, ProductName varchar(50) COLLATE SQL_Latin1_General_CP437_BIN);
+
+
+
+Q60. What are the different types of Collation Sensitivity?
+Following are the different types of collation sensitivity:
+
+Case Sensitivity: A and a and B and b.
+Kana Sensitivity: Japanese Kana characters.
+Width Sensitivity: Single byte character and double-byte character.
+Accent Sensitivity.

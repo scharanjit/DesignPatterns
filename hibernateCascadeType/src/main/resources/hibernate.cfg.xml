@@ -5,7 +5,7 @@
         <!-- Database connection settings -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/cascadedb</property>
-        <property name="hibernate.connection.username">sema4</property>
+        <property name="hibernate.connection.username">abc4</property>
         <property name="hibernate.connection.password">root</property>
 
         <!-- Sql dialect -->

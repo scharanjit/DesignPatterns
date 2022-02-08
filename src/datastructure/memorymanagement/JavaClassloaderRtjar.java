@@ -31,7 +31,7 @@ public class JavaClassloaderRtjar {
  * There are three types of built-in ClassLoader in Java:
  * <p>
  * =>Bootstrap Class Loader – It loads JDK internal classes, typically
- * loads rt.jar and other core classes for example java.lang.* package classes
+ * loads rt.jar and other core classes for examplewithoutbridge java.lang.* package classes
  * <p>
  * =>Extensions Class Loader – It loads classes from the JDK extensions
  * directory, usually $JAVA_HOME/lib/ext directory.
@@ -52,7 +52,7 @@ public class JavaClassloaderRtjar {
  * that is good enough for most of the cases. But if you are expecting a
  * class at the runtime or from FTP server or via third party web service
  * at the time of loading the class then you have to extend the existing
- * class loader. For example, AppletViewers load the classes from remote
+ * class loader. For examplewithoutbridge, AppletViewers load the classes from remote
  * web server.
  * <p>
  * <p>

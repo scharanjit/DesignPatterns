@@ -30,4 +30,7 @@ Result
 
 In this example you get the cartesian product of all rows in both tables.
 
+cartesian product means output will be ==> with every row in table 1 associated
+with every row in table 2.
+
 

@@ -1,0 +1,41 @@
+Elastic Search
+
+Document  ==> Indexes
+
+sharding
+Shard A Shard B
+Replication
+ Replica A Replica B
+
+ Node
+
+Each data row in elastic search is called document
+Each document in es is equivalent to data in a row of sql db.
+
+===>
+
+In elasticsearch,
+
+Each ES clusters , consist of 1 or more nodes,
+data is stored on shards
+Shards are stored on nodes.
+
+
+ ====
+ Sharing allows es to store number of documents and index can be stored in multiple nodes,
+ by splitting indexes into smaller pieces.
+
+ img 1,2,3,4 represent creation of index pages
+ state changes from gree to yellow
+ because it has one replica, which is unsassigned
+ as the es is running in single node
+
+ it does not make sense to have single node, and having replica in same node
+
+ what if whole node failed, replica too would be lost.
+
+ Minimum two nodes are required
+
+
+
+

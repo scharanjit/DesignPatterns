@@ -1,0 +1,7 @@
+Both Char and Varchar2 are used for characters datatype but
+varchar2 is used for character strings of variable length
+whereas Char is used for strings of fixed length.
+
+For example, char(10) can only store 10 characters and will
+not be able to store a string of any other length whereas
+varchar2(10) can store any length i.e 6,8,2 in this variable.

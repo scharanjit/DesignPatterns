@@ -2,7 +2,7 @@ package design.patterns.z.problems10.educative.elevator;
 
 public class ElevatorEngine extends Thread {
     private ElevatorCabin cabin = new ElevatorCabin();
-    private volatile boolean stopFlag = false;
+    private volatileExample boolean stopFlag = false;
 
     public void startEngine() {
         stopFlag = false;
